@@ -12,6 +12,20 @@ sys.path.insert(0, str(SRC_DIR))
 
 import streamlit as st  # noqa: E402
 
+# On Streamlit Community Cloud there is no .env file -- secrets are entered
+# via the app's own Secrets panel and read through st.secrets instead. Bridge
+# them into os.environ (only when not already set, e.g. by a local .env)
+# before importing graph.py, since every node module reads OPENAI_API_KEY /
+# OPENAI_MODEL_AGENT / OPENAI_MODEL_JUDGE from os.environ, some at import time.
+import os  # noqa: E402
+
+try:
+    for _key in ("OPENAI_API_KEY", "OPENAI_MODEL_AGENT", "OPENAI_MODEL_JUDGE"):
+        if _key not in os.environ and _key in st.secrets:
+            os.environ[_key] = st.secrets[_key]
+except st.errors.StreamlitSecretNotFoundError:
+    pass  # local run, no .streamlit/secrets.toml -- .env covers it instead
+
 from graph import give_feedback, run_turn  # noqa: E402
 from tools._data import CUSTOMERS  # noqa: E402
 
