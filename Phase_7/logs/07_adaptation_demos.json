@@ -1,0 +1,112 @@
+{
+  "style_adaptation": {
+    "before": {
+      "input": "What's the late payment fee on a credit card, and what happens if a payment is missed?",
+      "intent": "general_product",
+      "confidence": 0.9,
+      "confidence_gate_threshold": 0.5,
+      "confidence_below_threshold": false,
+      "final_response": "The late payment fee on a credit card is ₹500 flat, if the minimum amount due is unpaid by the due date. If a payment is missed, the missed payment may be reported to credit bureaus after the grace period, and two or more consecutive missed minimum payments may trigger a review for the Financial Hardship pathway if the customer indicates difficulty paying.\n\nPlease note that this information is for your understanding and not a recommendation.",
+      "tools_called": [
+        "search_bank_policy",
+        "search_bank_policy"
+      ]
+    },
+    "after_1_vote": {
+      "style_adapted_now": false,
+      "preferences": {}
+    },
+    "after_2_votes": {
+      "style_adapted_now": true,
+      "preferences": {
+        "style": "terse"
+      }
+    },
+    "after": {
+      "input": "What's the late payment fee on a credit card, and what happens if a payment is missed?",
+      "intent": "general_product",
+      "confidence": 0.9,
+      "confidence_gate_threshold": 0.8,
+      "confidence_below_threshold": false,
+      "final_response": "The late payment fee on a credit card is ₹500 flat if the minimum due is unpaid by the due date. If a payment is missed, it may be reported to credit bureaus after the grace period, and two or more consecutive missed payments could trigger a review for financial hardship. More detail available on request.",
+      "tools_called": [
+        "search_bank_policy"
+      ]
+    }
+  },
+  "few_shot_injection": {
+    "priming_question": "What's the annual maintenance fee on a debit card?",
+    "priming_answer_before_correction": {
+      "input": "What's the annual maintenance fee on a debit card?",
+      "intent": "general_product",
+      "confidence": 0.9,
+      "confidence_gate_threshold": 0.8,
+      "confidence_below_threshold": false,
+      "final_response": "The annual maintenance fee on a debit card is ₹250 plus GST.",
+      "tools_called": [
+        "search_bank_policy"
+      ]
+    },
+    "correction_submitted": "The annual maintenance fee on a debit card is Rs.295 + GST, per fee-schedule (doc_id: fee-schedule, effective_date: 2026-01-01). Always name the doc_id and effective_date explicitly when quoting any fee, since more than one version of the fee schedule exists and naming which one prevents ever quoting a stale rate.",
+    "similar_question": "What's the joining fee on a credit card?",
+    "before_correction_exists": {
+      "input": "What's the joining fee on a credit card?",
+      "intent": "general_product",
+      "confidence": 0.9,
+      "confidence_gate_threshold": 0.8,
+      "confidence_below_threshold": false,
+      "final_response": "The joining fee for a credit card is ₹500 + GST, but this fee is waived for first-year-free offers.",
+      "tools_called": [
+        "search_bank_policy"
+      ]
+    },
+    "after_correction_exists": {
+      "input": "What's the joining fee on a credit card?",
+      "intent": "general_product",
+      "confidence": 0.95,
+      "confidence_gate_threshold": 0.8,
+      "confidence_below_threshold": false,
+      "final_response": "The joining fee for a credit card is ₹500 + GST, but this fee is waived for first-year-free offers.",
+      "tools_called": [
+        "search_bank_policy"
+      ]
+    }
+  },
+  "escalation_threshold_tuning": {
+    "before": {
+      "input": "What's the customer's savings account balance?",
+      "intent": "account_specific",
+      "confidence": 1.0,
+      "confidence_gate_threshold": 0.5,
+      "confidence_below_threshold": false,
+      "final_response": "The balance in the customer's Regular Savings Account is ₹42,115.",
+      "tools_called": [
+        "get_account_summary"
+      ]
+    },
+    "after_2_negative_votes": {
+      "input": "What's the customer's savings account balance?",
+      "intent": "account_specific",
+      "confidence": 1.0,
+      "confidence_gate_threshold": 0.8,
+      "confidence_below_threshold": false,
+      "final_response": "The balance in the customer's Regular Savings Account is ₹42,115.",
+      "tools_called": [
+        "get_account_summary"
+      ]
+    }
+  },
+  "escalation_threshold_tuning_direct_test": {
+    "borderline_confidence": 0.65,
+    "fresh_topic (check_dispute_status, never flagged)": {
+      "confidence_gate_topic": "check_dispute_status",
+      "confidence_gate_threshold": 0.5,
+      "confidence_below_threshold": false
+    },
+    "flagged_topic (get_account_summary, 2 negative votes from the demo above)": {
+      "confidence_gate_topic": "get_account_summary",
+      "confidence_gate_threshold": 0.8,
+      "confidence_below_threshold": true
+    }
+  }
+}

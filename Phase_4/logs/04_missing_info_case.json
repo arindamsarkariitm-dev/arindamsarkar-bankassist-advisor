@@ -1,0 +1,12 @@
+{
+  "question": "What's the interest rate on your crypto savings product?",
+  "n_retrieved": 3,
+  "retrieved_doc_ids": [
+    "savings-interest-policy",
+    "fee-schedule",
+    "fee-schedule"
+  ],
+  "answer": "I don't have information on a cryptocurrency savings product in our current product lineup, so I can't confirm a rate. I'd suggest escalating to confirm whether this product exists.",
+  "escalate": true,
+  "latency_ms": 1385.3
+}

@@ -1,0 +1,147 @@
+{
+  "_disclaimer": "Synthetic data. No real customers, accounts, or transactions. All names, IDs, balances, and figures below are fictional, generated solely for the BankAssist Advisor capstone project.",
+  "_schema_note": "accounts[] holds savings/loan-type products; cards[] holds credit cards only (debit cards are implicit on every savings account and not modelled as separate records). 3 customers, 5 accounts, 2 credit cards, per capstone_build_plan.md §2.",
+  "customers": [
+    {
+      "customer_id": "CUST-0001",
+      "name": "Priya Menon",
+      "age": 34,
+      "occupation": "Salaried",
+      "employer_sector": "IT Services",
+      "phone_masked": "XXXXXX2345",
+      "email_masked": "p***@example.com",
+      "kyc_status": "verified",
+      "kyc_last_updated": "2025-11-02",
+      "vulnerable_customer_flag": false,
+      "accounts": ["ACC-1001", "ACC-1002"],
+      "cards": ["CARD-2001"]
+    },
+    {
+      "customer_id": "CUST-0002",
+      "name": "Rohan Verma",
+      "age": 42,
+      "occupation": "Self-employed",
+      "employer_sector": "Retail trade",
+      "phone_masked": "XXXXXX8871",
+      "email_masked": "r***@example.com",
+      "kyc_status": "verified",
+      "kyc_last_updated": "2025-06-18",
+      "vulnerable_customer_flag": false,
+      "accounts": ["ACC-1003", "ACC-1004"],
+      "cards": ["CARD-2002"]
+    },
+    {
+      "customer_id": "CUST-0003",
+      "name": "Ayesha Khan",
+      "age": 28,
+      "occupation": "Salaried",
+      "employer_sector": "Healthcare",
+      "phone_masked": "XXXXXX4410",
+      "email_masked": "a***@example.com",
+      "kyc_status": "verified",
+      "kyc_last_updated": "2026-01-09",
+      "vulnerable_customer_flag": false,
+      "accounts": ["ACC-1005"],
+      "cards": []
+    }
+  ],
+  "accounts": [
+    {
+      "account_id": "ACC-1001",
+      "customer_id": "CUST-0001",
+      "type": "savings",
+      "product_name": "Regular Savings Account",
+      "account_number_masked": "XXXXXXXX1001",
+      "ifsc": "SYNB0001234",
+      "branch": "Koramangala, Bengaluru",
+      "opened_date": "2019-03-11",
+      "status": "active",
+      "currency": "INR",
+      "balance": 184230.50
+    },
+    {
+      "account_id": "ACC-1002",
+      "customer_id": "CUST-0001",
+      "type": "recurring_deposit",
+      "product_name": "RD - 24 Month",
+      "account_number_masked": "XXXXXXXX1002",
+      "ifsc": "SYNB0001234",
+      "branch": "Koramangala, Bengaluru",
+      "opened_date": "2025-02-01",
+      "status": "active",
+      "currency": "INR",
+      "monthly_installment": 5000.00,
+      "maturity_date": "2027-02-01",
+      "interest_rate_pct": 6.75
+    },
+    {
+      "account_id": "ACC-1003",
+      "customer_id": "CUST-0002",
+      "type": "savings",
+      "product_name": "Regular Savings Account",
+      "account_number_masked": "XXXXXXXX1003",
+      "ifsc": "SYNB0004410",
+      "branch": "Andheri East, Mumbai",
+      "opened_date": "2015-07-22",
+      "status": "active",
+      "currency": "INR",
+      "balance": 96410.10
+    },
+    {
+      "account_id": "ACC-1004",
+      "customer_id": "CUST-0002",
+      "type": "home_loan",
+      "product_name": "Home Loan - Floating Rate",
+      "account_number_masked": "XXXXXXXX1004",
+      "ifsc": "SYNB0004410",
+      "branch": "Andheri East, Mumbai",
+      "opened_date": "2021-04-15",
+      "status": "active",
+      "currency": "INR",
+      "principal_disbursed": 3500000.00,
+      "outstanding_principal": 3121480.00,
+      "annual_rate_pct": 8.6,
+      "tenure_months": 240,
+      "next_due_date": "2026-09-05"
+    },
+    {
+      "account_id": "ACC-1005",
+      "customer_id": "CUST-0003",
+      "type": "savings",
+      "product_name": "Regular Savings Account",
+      "account_number_masked": "XXXXXXXX1005",
+      "ifsc": "SYNB0007790",
+      "branch": "Banjara Hills, Hyderabad",
+      "opened_date": "2024-09-30",
+      "status": "active",
+      "currency": "INR",
+      "balance": 42115.00
+    }
+  ],
+  "cards": [
+    {
+      "card_id": "CARD-2001",
+      "customer_id": "CUST-0001",
+      "linked_account_id": "ACC-1001",
+      "type": "credit",
+      "product_name": "Platinum Rewards Credit Card",
+      "card_number_masked": "XXXX-XXXX-XXXX-4471",
+      "issued_date": "2022-08-19",
+      "credit_limit": 250000.00,
+      "status": "active",
+      "billing_cycle_day": 20
+    },
+    {
+      "card_id": "CARD-2002",
+      "customer_id": "CUST-0002",
+      "linked_account_id": "ACC-1003",
+      "type": "credit",
+      "product_name": "Gold Cashback Credit Card",
+      "card_number_masked": "XXXX-XXXX-XXXX-8834",
+      "issued_date": "2020-11-02",
+      "credit_limit": 150000.00,
+      "status": "active",
+      "billing_cycle_day": 5
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# Secrets — never commit real keys
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+
+# Stray local logs/pids (defensive — none currently present)
+*.pid
+*_out.log
+*_err.log

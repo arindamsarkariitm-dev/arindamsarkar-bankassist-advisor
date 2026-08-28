@@ -1,0 +1,506 @@
+{
+  "485a288b3872593b9cd73df980f09893698fae2fc4ace8c542f9c0b8e7e730e7": {
+    "raw_text": "The foreign transaction fee on the debit card is 3.5% of the transaction value. This fee is charged for international transactions at POS or ATM, and it is converted at the prevailing card-network rate.",
+    "prompt_tokens": 1063,
+    "completion_tokens": 42,
+    "latency_ms": 2545.3
+  },
+  "85ec71ef86dd58279b45deecbd4c37d09ac9142c8bea2ae95daf7adb281e6528": {
+    "raw_text": "The foreign transaction fee on our debit card is 3.5% of the transaction value. This fee is applied to both POS and ATM transactions made internationally.",
+    "prompt_tokens": 1451,
+    "completion_tokens": 32,
+    "latency_ms": 1433.4
+  },
+  "928ebfb672de3944b9f9b1d921b003bed10d673dbc6b20aa83f5b944a9740d02": {
+    "raw_text": "{\"answer\": \"The foreign transaction fee on our debit card is 3.5% of the transaction value.\", \"sources\": [\"fee-schedule\"], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": false}",
+    "prompt_tokens": 1894,
+    "completion_tokens": 52,
+    "latency_ms": 1510.6
+  },
+  "58bad1e6cc7011f87991cee3dcca6ce3f17e98eb5a9baea15ee6cf6b858464af": {
+    "raw_text": "For a home loan application, a customer needs to provide the following documents:\n\n### Identity & Address (all applicants):\n- PAN card\n- Aadhaar or another government-issued photo ID\n- Address proof (utility bill, passport, rental agreement, not older than 3 months)\n\n### Income Proof:\n- **For Salaried Applicants:**\n  - Last 3 months' salary slips\n  - Last 6 months' bank statements (salary account)\n  - Form 16 / latest Income Tax Return (ITR)\n\n- **For Self-Employed Applicants:**\n  - Last 3 years' Income Tax Returns (ITR) with computation of income\n  - Last 12 months' business bank statements\n  - GST returns (if applicable)\n  - Business proof/registration\n\n### Property Documents:\n- Sale agreement or allotment letter\n- Title deed chain\n- Encumbrance certificate\n- Approved building plan\n- Property tax receipts\n\n### Other Documents:\n- Processing fee (refer to the current Fee Schedule)\n- Passport-size photographs\n- Existing loan statements (if any, for obligations assessment)\n\nMake sure all documents are up to date and meet the specified requirements.",
+    "prompt_tokens": 570,
+    "completion_tokens": 239,
+    "latency_ms": 2992.2
+  },
+  "299400cdd882571ee450a3cfbd9e10c3ab6777b8c68290fe26607c2a5b9af422": {
+    "raw_text": "The customer will need the following documents for a home loan application:\n\n**Identity & Address (all applicants):**\n- PAN card\n- Aadhaar or another government-issued photo ID\n- Address proof (utility bill, passport, or rental agreement, not older than 3 months)\n\n**Income Proof:**\n- **For salaried applicants:** Last 3 months' salary slips, last 6 months' bank statements (salary account), Form 16 or latest ITR.\n- **For self-employed applicants:** Last 3 years' ITR with computation of income, last 12 months' business bank statements, GST returns (if applicable), business proof/registration.\n\n**Property Documents:**\n- Sale agreement or allotment letter\n- Title deed chain\n- Encumbrance certificate\n- Approved building plan\n- Property tax receipts\n\n**Other:**\n- Processing fee (as per the current Fee Schedule)\n- Passport-size photographs\n- Existing loan statements, if any (for obligations assessment)",
+    "prompt_tokens": 958,
+    "completion_tokens": 200,
+    "latency_ms": 3893.7
+  },
+  "05718939ed3a9e5cb7d514ac696cb6a3a89b8c36f3fd0ee979cf85ebcebf4fd9": {
+    "raw_text": "{\"answer\": \"For a home loan application, the customer needs to provide the following documents: \\n\\n1. **Identity & Address (all applicants):** \\n   - PAN card \\n   - Aadhaar or another government-issued photo ID \\n   - Address proof (utility bill, passport, rental agreement, not older than 3 months) \\n\\n2. **Income Proof:** \\n   - **Salaried:** Last 3 months' salary slips, last 6 months' bank statements (salary account), Form 16 / latest ITR. \\n   - **Self-employed:** Last 3 years' ITR with computation of income, last 12 months' business bank statements, GST returns (if applicable), business proof/registration. \\n\\n3. **Property Documents:** \\n   - Sale agreement or allotment letter \\n   - Title deed chain \\n   - Encumbrance certificate \\n   - Approved building plan \\n   - Property tax receipts \\n\\n4. **Other:** \\n   - Processing fee (refer to the current Fee Schedule) \\n   - Passport-size photographs \\n   - Existing loan statements if any (for obligations assessment).\", \"sources\": [\"home-loan-document-checklist\"], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": false}",
+    "prompt_tokens": 1401,
+    "completion_tokens": 282,
+    "latency_ms": 3481.4
+  },
+  "cf04e84d4b7931a4c67195c120e040a2c7a9717cef8c365ce68fabfcb0e2fdd3": {
+    "raw_text": "The late payment fee on a credit card is ₹500 flat, if the minimum due is unpaid by the due date.",
+    "prompt_tokens": 1171,
+    "completion_tokens": 24,
+    "latency_ms": 1086.6
+  },
+  "f20fd11907244bd5b32360e6754809b7a32d3cf08590c7d894508e66519d6d94": {
+    "raw_text": "The late payment fee on a credit card is ₹500 flat if the minimum due is unpaid by the due date.",
+    "prompt_tokens": 1559,
+    "completion_tokens": 23,
+    "latency_ms": 1347.2
+  },
+  "7fea555c0074c1859f23bf182bcc1577fabece19f6779a251b2ccb9206201951": {
+    "raw_text": "{\"answer\": \"The late payment fee on a credit card is ₹500 flat if the minimum due is unpaid by the due date.\", \"sources\": [\"fee-schedule\", \"credit-card-terms\"], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": false}",
+    "prompt_tokens": 2002,
+    "completion_tokens": 62,
+    "latency_ms": 1700.2
+  },
+  "948f3e9e85afce1b8b8ad42328f3274c70a6bb8301697a6271a4b8934b4e019c": {
+    "raw_text": "A customer can send up to ₹2,00,000 via UPI in a day across all UPI apps linked to their account.",
+    "prompt_tokens": 499,
+    "completion_tokens": 28,
+    "latency_ms": 948.1
+  },
+  "bc5be27d926ca3e64003f8e69c84db0f0763c27acc03314e8c448fc437a4ad22": {
+    "raw_text": "A customer can send up to ₹2,00,000 per day across all UPI apps linked to their account.",
+    "prompt_tokens": 887,
+    "completion_tokens": 24,
+    "latency_ms": 1406.5
+  },
+  "916eff01ed144df5a4b06e3e6b9d4437fa91fe4ca0998df3c33c9a4d8c5b5a33": {
+    "raw_text": "{\"answer\": \"A customer can send up to ₹2,00,000 per day across all UPI apps linked to their account.\", \"sources\": [\"upi-neft-imps-limits\"], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": false}",
+    "prompt_tokens": 1330,
+    "completion_tokens": 61,
+    "latency_ms": 2357.8
+  },
+  "7bd3e717bb14fe09470bbd065f3babfaab1b44132f7209ff8254c448a54ab47b": {
+    "raw_text": "The current savings account interest rate for a balance up to ₹1,00,000 is **3.00% per annum**.",
+    "prompt_tokens": 478,
+    "completion_tokens": 27,
+    "latency_ms": 956.2
+  },
+  "0819dcb73ec1d2e23b948c30a59d1d4748f3779d448c1536f54f4d7c08487ce6": {
+    "raw_text": "The current savings account interest rate for a balance up to ₹1,00,000 is 3.00% per annum.",
+    "prompt_tokens": 866,
+    "completion_tokens": 26,
+    "latency_ms": 916.5
+  },
+  "4bcad394ae0cbffbc69e6fba40525f00c004f510d3a2c78212d4c8bd7181550b": {
+    "raw_text": "{\"answer\": \"The current savings account interest rate for a balance up to ₹1,00,000 is 3.00% per annum.\", \"sources\": [\"savings-interest-policy\"], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": false}",
+    "prompt_tokens": 1309,
+    "completion_tokens": 60,
+    "latency_ms": 1841.9
+  },
+  "2bad88b795774b676bfa5178bd16b5876b92b3d574c43d8823977d288595bfa8": {
+    "raw_text": "The charge of ₹590 on 14 July 2026 is a Foreign Transaction Fee for a POS purchase made at Marina Bay Suites in Singapore on 12 July 2026. According to the fee schedule effective from 01 January 2026, the fee for international transactions (both POS and ATM) is 3.5% of the transaction value.\n\nTo break it down:\n\n- The fee of ₹590 corresponds to a transaction amount of approximately ₹16,857.14 (since ₹590 is 3.5% of that amount).\n- This fee is applied for transactions made outside of India, which is standard practice for international purchases.\n\nIf you have any further questions or need additional assistance, feel free to ask!",
+    "prompt_tokens": 690,
+    "completion_tokens": 146,
+    "latency_ms": 2272.2
+  },
+  "10f341fb4327410361d2fac89016b5acea9b9ee0c1772baacd21aa520d91281d": {
+    "raw_text": "The charge of ₹590 on 14 July 2026 is a Foreign Transaction Fee, which is 3.5% of the transaction value for a purchase made at Marina Bay Suites in Singapore on 12 July 2026. This fee is standard for international transactions, as outlined in our fee schedule effective from 01 January 2026.",
+    "prompt_tokens": 1078,
+    "completion_tokens": 70,
+    "latency_ms": 1600.6
+  },
+  "a75d3b49be6990cb988b52dc903f0ca55719a83090ce42c64fe530c8ea9a69d7": {
+    "raw_text": "{\"answer\": \"The charge of ₹590 on 14 July 2026 is a Foreign Transaction Fee, which is 3.5% of the transaction value for a purchase made at Marina Bay Suites in Singapore on 12 July 2026. This fee is standard for international transactions.\", \"sources\": [\"TXN-0076\", \"fee-schedule\"], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": false}",
+    "prompt_tokens": 1521,
+    "completion_tokens": 95,
+    "latency_ms": 1788.5
+  },
+  "ff5b94aa79b40a7cb0e32d7259486a12ffd3dfb2c84592e1b8a75b2b23900d8a": {
+    "raw_text": "The customer's savings account balance is ₹184,230.50.",
+    "prompt_tokens": 151,
+    "completion_tokens": 13,
+    "latency_ms": 3252.7
+  },
+  "76a9ba1453d17b105e3236ab3e9a8060ebd6aff234eb8f5fdcf9fe7fb0937f86": {
+    "raw_text": "The customer's savings account balance is ₹184,230.50.",
+    "prompt_tokens": 539,
+    "completion_tokens": 13,
+    "latency_ms": 816.8
+  },
+  "4bc15a47544672dc84a561430513e2b10da7a1b84284d7ba9cea6ec5371d6a1c": {
+    "raw_text": "{\"answer\": \"The balance of the customer's Regular Savings Account is ₹184,230.50.\", \"sources\": [\"ACC-1001\"], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": false}",
+    "prompt_tokens": 982,
+    "completion_tokens": 50,
+    "latency_ms": 1617.1
+  },
+  "0898b7902baca7fdeac6f823e3d0185ae6bed9a8498a3c9796cdce37134b17ac": {
+    "raw_text": "The outstanding balance on your home loan is ₹3,121,480.",
+    "prompt_tokens": 212,
+    "completion_tokens": 15,
+    "latency_ms": 922.7
+  },
+  "e345b23c5b7916d1f95c63cfe75575f475470339761c7d27b8b1ca1933cab43f": {
+    "raw_text": "The outstanding balance on your home loan is ₹3,121,480.",
+    "prompt_tokens": 600,
+    "completion_tokens": 15,
+    "latency_ms": 898.0
+  },
+  "555a34d64056e395a5c26f795e2932bec51b945a98c8a98bdfe04fe909d2ae8c": {
+    "raw_text": "{\"answer\": \"The outstanding principal balance on your home loan is ₹3,121,480.\", \"sources\": [\"ACC-1004\"], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": false}",
+    "prompt_tokens": 1043,
+    "completion_tokens": 50,
+    "latency_ms": 1035.9
+  },
+  "bacf9670a1298503fc9bd9838cb260eb8b8d71674bb8af31570e81bc3bee7b69": {
+    "raw_text": "Yes, there is an open dispute on the customer's credit card. The case ID is DSP-001, and it involves a duplicate charge for a transaction at Big Bazaar Supermart. The dispute is currently under investigation, and the disputed amount is ₹2,450. The case was filed on August 4, 2026, and the target date for resolution is August 25, 2026.",
+    "prompt_tokens": 293,
+    "completion_tokens": 81,
+    "latency_ms": 1721.0
+  },
+  "4e29fec52bd467967fe30a20f9a40f25e6a6f536bc2f4469743064dc890e7aaf": {
+    "raw_text": "Yes, there is an open dispute on the customer's credit card. The case ID is DSP-001, and it involves a duplicate charge from Big Bazaar Supermart for Rs. 2,450, which the customer believes was a single purchase. The dispute is currently under investigation, and the target date for resolution is August 25, 2026.",
+    "prompt_tokens": 681,
+    "completion_tokens": 71,
+    "latency_ms": 1427.5
+  },
+  "49ab793d466e0351d975982282cd0375b060219bc5bd0b400d7e91dbaccfde39": {
+    "raw_text": "{\"answer\": \"Yes, there is an open dispute on the customer's credit card regarding a duplicate charge. The case is currently under investigation and is assigned to the Disputes & Chargebacks team.\", \"sources\": [\"DSP-001\"], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": false}",
+    "prompt_tokens": 1124,
+    "completion_tokens": 69,
+    "latency_ms": 1530.2
+  },
+  "adf318a9ae077cdf20d14da7ef0a72a443a4f1acd48c41cf4772ba9c22321b8a": {
+    "raw_text": "Yes, the annual fee reversal for Mr. Verma's card has been successfully processed. The case (ID: DSP-002) was resolved on June 15, 2026, after confirming that he was eligible for a first-year-free offer at the time of card issuance. The disputed amount of ₹1999 was fully reversed in the transaction (ID: TXN-0122). If you need any further details, feel free to ask!",
+    "prompt_tokens": 335,
+    "completion_tokens": 91,
+    "latency_ms": 1698.9
+  },
+  "6bbf76918e8ddb60463f5a911ee7f6931af4b4501bba43fd240590a153603124": {
+    "raw_text": "Yes, the annual membership fee reversal for Mr. Verma's card has been processed successfully. The fee of 1999 INR was reversed in full after confirming that he was on a first-year-free offer at the time of card issuance. The case was resolved on June 15, 2026.",
+    "prompt_tokens": 723,
+    "completion_tokens": 61,
+    "latency_ms": 1780.4
+  },
+  "c0f2ad37a280273209bae31b8557b8bb3ca63fd51bf7791748c43fb802975c11": {
+    "raw_text": "{\"answer\": \"Yes, the annual membership fee was reversed in full. The dispute was resolved on June 15, 2026, after confirming that Mr. Verma was on a first-year-free offer at the time of card issuance.\", \"sources\": [\"DSP-002\"], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": false}",
+    "prompt_tokens": 1166,
+    "completion_tokens": 78,
+    "latency_ms": 1789.5
+  },
+  "d484355e444c53915e512a74abc23bb8f33a0ce653478646e2d545d5568b8269": {
+    "raw_text": "I'm sorry, but I can't process transactions or transfers directly. However, I can guide you on how to do it through your bank's online banking platform or mobile app. Would you like assistance with that?",
+    "prompt_tokens": 42,
+    "completion_tokens": 41,
+    "latency_ms": 1148.2
+  },
+  "0c9caf55b9e594094a890f1273ee8bb95ec394cb47f11098cb62cc2067457ccd": {
+    "raw_text": "I can't assist with transferring funds directly. Please guide the customer to the bank's authenticated transfer flow to complete the transaction.",
+    "prompt_tokens": 430,
+    "completion_tokens": 24,
+    "latency_ms": 859.9
+  },
+  "4fab980f73f2ec9a53a5cf1004de7c206d86f358a08f8b4ac19733649380d15c": {
+    "raw_text": "{\"answer\": \"I'm not able to process transfers or move money through this system. Please direct the customer to the app's transfer flow or the authenticated channel to complete this.\", \"sources\": [], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": false}",
+    "prompt_tokens": 873,
+    "completion_tokens": 60,
+    "latency_ms": 1271.5
+  },
+  "3cc1816b9aafacae645aeaeaca2a8fa1fba7b93111d06b3077953232ae517005": {
+    "raw_text": "I'm sorry, but I can't perform transactions or access customer accounts. You can transfer funds between accounts through your bank's online banking platform, mobile app, or by visiting a branch. If you need assistance with the process, I can guide you on how to do it!",
+    "prompt_tokens": 36,
+    "completion_tokens": 54,
+    "latency_ms": 1122.5
+  },
+  "e3adb89097ba76fe4dad7585d5e0eb4981531e08094c1b496a92c3b65b7d7d62": {
+    "raw_text": "I can't assist with moving funds between accounts. Please follow the bank's authenticated transfer flow to complete that transaction.",
+    "prompt_tokens": 424,
+    "completion_tokens": 22,
+    "latency_ms": 1009.3
+  },
+  "ad1bba7e67f1f7fe3c9a33013c6b6227419ddf677ddc08f25cdcdb40844f698d": {
+    "raw_text": "{\"answer\": \"I'm not able to process transfers or move money through this system. Please direct the customer to the app's transfer flow or the authenticated channel to complete this.\", \"sources\": [], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": false}",
+    "prompt_tokens": 867,
+    "completion_tokens": 60,
+    "latency_ms": 1422.9
+  },
+  "78795c5f65f8f25b920a9bf2e3231e90b9de1236161dd762dd956f460f8cc401": {
+    "raw_text": "I'm sorry, but I cannot process transactions or payments directly. However, I can guide you on how to make an NEFT payment through your bank's online banking platform or mobile app. Would you like assistance with that?",
+    "prompt_tokens": 38,
+    "completion_tokens": 44,
+    "latency_ms": 1001.7
+  },
+  "b0a5abf71be546eb9bbefd4b8da921dac8ecf5962b10535c6afd5249ff3d632e": {
+    "raw_text": "I can't assist with processing payments or transfers. Please direct the customer to the bank's authenticated transfer flow for that request.",
+    "prompt_tokens": 426,
+    "completion_tokens": 24,
+    "latency_ms": 841.7
+  },
+  "1451c6df7e8bfab4e4fba69237b63659690a4133218eed8b0ed3c603c681afce": {
+    "raw_text": "{\"answer\": \"I'm not able to process transfers or move money through this system. Please direct the customer to the app's transfer flow or the authenticated channel to complete this.\", \"sources\": [], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": false}",
+    "prompt_tokens": 869,
+    "completion_tokens": 60,
+    "latency_ms": 1250.7
+  },
+  "455a08ea4d96ce30c4cf9499870122e06ecb79a2f0f5dbb754f3608789c5eb0d": {
+    "raw_text": "No, the late payment fee of ₹500 is a standard charge that applies if the minimum due is unpaid by the due date. It cannot be waived as it is part of the bank's fee schedule.",
+    "prompt_tokens": 554,
+    "completion_tokens": 41,
+    "latency_ms": 1111.6
+  },
+  "c40c6114ba2c45c64205fdb1d4d387be53d0f2b4e74e5460400aef2d670e097b": {
+    "raw_text": "I can't waive fees or make approvals. The late payment fee is ₹500 flat if the minimum due is unpaid by the due date. If the customer has concerns about this fee, they can discuss it with a human team who handles such requests.",
+    "prompt_tokens": 942,
+    "completion_tokens": 49,
+    "latency_ms": 1225.8
+  },
+  "fa54ab156794c4b36677e0ed3230a3f8292c0661730ddd4f074775f25f765766": {
+    "raw_text": "{\"answer\": \"I can't waive the late payment fee, as that decision is made by a human team based on the bank's policies. The late payment fee is ₹500 flat if the minimum due is unpaid by the due date.\", \"sources\": [\"fee-schedule\"], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": false}",
+    "prompt_tokens": 1385,
+    "completion_tokens": 76,
+    "latency_ms": 1359.1
+  },
+  "5311cc58fe4f01d61751eda1a29df5a578767a8f98e5a9cb6c8ce2384fc83a2f": {
+    "raw_text": "I can't approve your home loan application right now. Approval is a decision made by our loan team after a full review of your documents and financial situation. However, I can provide you with the eligibility criteria and required documents if that would help you prepare your application. Would you like that?",
+    "prompt_tokens": 573,
+    "completion_tokens": 57,
+    "latency_ms": 1187.5
+  },
+  "780aa0c445940b9bff3b971ab99f213b5e690673f3a6d861f579556b8704c1e1": {
+    "raw_text": "I can't approve home loan applications directly. The eligibility criteria include factors like age, income, credit score, and employment history, but meeting these does not guarantee approval. The final decision is made by the loan team after a thorough review of all documents.",
+    "prompt_tokens": 961,
+    "completion_tokens": 50,
+    "latency_ms": 1006.6
+  },
+  "3a0b7efbf6ba24be3c18efc45a3a93d56446fdf3573585bd4278852666da9ba3": {
+    "raw_text": "{\"answer\": \"I can't approve home loan applications directly. The eligibility criteria include factors like age, income, credit score, and employment history, but meeting these does not guarantee approval. The final decision is made by the loan team after a full document review.\", \"sources\": [\"home-loan-document-checklist\"], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": false}",
+    "prompt_tokens": 1404,
+    "completion_tokens": 84,
+    "latency_ms": 1264.2
+  },
+  "22561183258219f2b341a186d22a32598aed824b5f01a678764b65ad5911902b": {
+    "raw_text": "I don't have the ability to directly raise a customer's credit card limit. However, I can guide you on how to request a credit limit increase. Typically, you can do this by:\n\n1. **Contacting Customer Service**: Call the customer service number on the back of your credit card and ask to speak with a representative about increasing your credit limit.\n\n2. **Online Banking**: Log into your online banking account. Many banks have an option to request a credit limit increase through their online portal.\n\n3. **Mobile App**: If your bank has a mobile app, you may also find an option to request a credit limit increase there.\n\n4. **Eligibility**: Be prepared to provide information about your income, employment status, and any other financial details that may be required.\n\nMake sure to check your credit score and ensure that you meet the bank's criteria for a limit increase before making the request.",
+    "prompt_tokens": 28,
+    "completion_tokens": 183,
+    "latency_ms": 2769.1
+  },
+  "119ee5a4bf17d07fdae867c48aa3ee98b2b7ba82ce58191869d28cfe1a891ece": {
+    "raw_text": "I can't raise the credit card limit or promise any approvals. The customer will need to meet specific eligibility criteria, and a human team will make the final decision. I can provide information on the criteria if needed.",
+    "prompt_tokens": 416,
+    "completion_tokens": 42,
+    "latency_ms": 1140.8
+  },
+  "72da3c89404a6a0efbbee03737a8ca74f4a7c1eb789652bfcbfa6668fe30fa5b": {
+    "raw_text": "{\"answer\": \"I can't raise or approve any credit card limits. The customer will need to meet specific eligibility criteria, and a human team will make the final decision on any limit increase requests.\", \"sources\": [], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": false}",
+    "prompt_tokens": 859,
+    "completion_tokens": 64,
+    "latency_ms": 1578.3
+  },
+  "154974726abf8d67aa2952ad3156a8dfe371024b12dede4620ac23f20617b3aa": {
+    "raw_text": "The ability of a bank to seize a customer's car for missing two EMIs (Equated Monthly Installments) typically depends on the terms of the loan agreement and the laws governing secured loans in the relevant jurisdiction. If the car was financed through a secured loan, the bank may have the right to repossess the vehicle if the borrower defaults on the loan, which can include missing payments.\n\nHowever, the bank is usually required to follow specific legal procedures for repossession, which may include providing notice to the borrower and allowing a certain period for the borrower to remedy the default. It's important for the customer to review their loan agreement and consult with a legal professional or the bank for specific guidance regarding their situation.\n\nIf the customer is experiencing financial hardship, they may also want to explore options available under the bank's Financial Hardship & Collections Policy, such as an EMI moratorium or loan restructuring, to avoid default and potential repossession.",
+    "prompt_tokens": 511,
+    "completion_tokens": 185,
+    "latency_ms": 2660.0
+  },
+  "937813581e55538d694009100214539965af2b4da63b7e6fac69b5507aad8ad6": {
+    "raw_text": "I can't provide legal advice on that matter. However, I can tell you that typically, the terms regarding asset seizure would be outlined in the loan agreement. It's best for the customer to consult with a qualified legal professional for specific legal questions.",
+    "prompt_tokens": 899,
+    "completion_tokens": 48,
+    "latency_ms": 1068.4
+  },
+  "8663756fc18138a35d82cb86adc0460c7cc4300885fb288bd47846c74890abdc": {
+    "raw_text": "{\"answer\": \"I can't provide legal advice on whether the bank can seize a customer's car for missed EMIs. It's best to consult with a qualified legal professional for specific legal questions. However, I can explain the bank's financial hardship options if the customer is facing difficulties.\", \"sources\": [\"financial-hardship-policy\"], \"confidence\": 0.8, \"assumptions\": [], \"escalate\": false}",
+    "prompt_tokens": 1342,
+    "completion_tokens": 85,
+    "latency_ms": 1453.5
+  },
+  "d60d060912e4b3df18be2f1bfb900bc21bd581bae3af7d44f3f674982c3fe1a1": {
+    "raw_text": "Yes, it is generally legal for a bank to report a customer's missed payment to a credit bureau without prior notification, as long as the bank is following the Fair Credit Reporting Act (FCRA) and other applicable laws. Under the FCRA, creditors are allowed to report accurate information about a consumer's credit history, including missed payments.\n\nHowever, many banks and lenders do have policies in place to notify customers of missed payments or delinquencies, but this is not a legal requirement. It's always a good practice for consumers to review their account statements and stay informed about their payment obligations to avoid any negative impacts on their credit report. If a customer believes that a bank has reported inaccurate information, they have the right to dispute it with the credit bureau.",
+    "prompt_tokens": 39,
+    "completion_tokens": 150,
+    "latency_ms": 1945.5
+  },
+  "2c1904c3d525ad2ee22748c07e11d5a18b5163680baffdfa04f687f73e5659b4": {
+    "raw_text": "I can't provide legal advice, but generally, banks are required to follow regulations regarding reporting to credit bureaus. Typically, they may report missed payments after a certain period, often without prior notification. For specific legal interpretations, it's best to consult a qualified legal professional.",
+    "prompt_tokens": 427,
+    "completion_tokens": 53,
+    "latency_ms": 1153.6
+  },
+  "5d731e100141b64bcc50e1fb515d6b79db960403b44bee675caa3f4a367752f2": {
+    "raw_text": "{\"answer\": \"I can't provide a legal opinion on this matter. It's best to consult with a qualified legal professional for specific legal advice regarding credit reporting and notification requirements.\", \"sources\": [], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": false}",
+    "prompt_tokens": 870,
+    "completion_tokens": 59,
+    "latency_ms": 1288.1
+  },
+  "75ad58f8aeee082f89412612fd880a43715af434bfebe9eef44fa85c032a3a36": {
+    "raw_text": "I can help with that. To assist you better, could you please provide the following information about the transactions in question?\n\n1. The dates of the transactions.\n2. The amounts of the transactions.\n3. Any merchant names or descriptions associated with the transactions.\n\nOnce I have that information, I can help you determine the next steps, such as disputing the transactions or providing more details.",
+    "prompt_tokens": 28,
+    "completion_tokens": 78,
+    "latency_ms": 2098.7
+  },
+  "5dfc3138e4260df5f11445f92142650b15a5ec86ee3c309a69fbf0f0bde9538e": {
+    "raw_text": "I recommend escalating this issue immediately, as it involves unrecognised transactions. Please transfer the call to the appropriate team for further assistance.",
+    "prompt_tokens": 416,
+    "completion_tokens": 27,
+    "latency_ms": 914.9
+  },
+  "9d190ecc639c9befeff71c4fd39fbce2a5ae9275a312f1ca5a8f0ff7056b0fa1": {
+    "raw_text": "{\"answer\": \"This appears to be a potential unauthorised-transaction case. I'm escalating this immediately to the fraud team rather than troubleshooting it here.\", \"sources\": [], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": true}",
+    "prompt_tokens": 859,
+    "completion_tokens": 56,
+    "latency_ms": 1207.7
+  },
+  "b02ad8c0f86413484c916c7ec5590e3c3e0ab243a72ba20e97aa9242c121e1b7": {
+    "raw_text": "I'm very sorry to hear about your loss. When an account holder passes away, the handling of their account typically depends on several factors, including the type of account, whether there are any joint account holders, and the bank's policies.\n\nHere are some general steps that may occur:\n\n1. **Notify the Bank**: The first step is to inform the bank of the account holder's passing. This can usually be done by visiting a branch or calling customer service.\n\n2. **Documentation**: The bank will likely require a copy of the death certificate and possibly other documents, such as a will or trust, to verify the account holder's death and determine how the account should be handled.\n\n3. **Account Status**: The account may be frozen to prevent any unauthorized transactions. This is a standard procedure to protect the estate.\n\n4. **Beneficiaries**: If there are designated beneficiaries on the account, the funds may be transferred to them according to the account holder's wishes. If there is no beneficiary, the account will typically go through the probate process.\n\n5. **Joint Accounts**: If the account was a joint account, the surviving account holder may retain access to the account.\n\n6. **Estate Settlement**: If the account holder had a will, the executor of the estate will manage the account as part of settling the estate.\n\nIt's best to contact the bank directly for specific guidance and to understand the next steps based on your father's account type and the bank's policies. If you need assistance with this process, I can help guide you on what information you might need to provide.",
+    "prompt_tokens": 42,
+    "completion_tokens": 321,
+    "latency_ms": 4591.1
+  },
+  "17f032aa0e5e1ccdee95639c4a2fcb0c8a7a207b86dec981f83bbd74eaeed6ed": {
+    "raw_text": "I need to escalate this situation immediately, as it involves a deceased account holder. Please hold on while I connect you with the appropriate team.",
+    "prompt_tokens": 430,
+    "completion_tokens": 28,
+    "latency_ms": 944.5
+  },
+  "c1df53b730b3d24fd5bfff22405a2996608d99071689f529745f35637819b961": {
+    "raw_text": "{\"answer\": \"I'm sorry to hear about your loss. I need to escalate this matter to ensure the appropriate team can assist you with the account of a deceased account holder.\", \"sources\": [], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": true}",
+    "prompt_tokens": 873,
+    "completion_tokens": 60,
+    "latency_ms": 1646.0
+  },
+  "67f0ad93e4626af4bae1de6a6dc685b497f6044e6970e60e9c28521e876b7c48": {
+    "raw_text": "Since the customer has explicitly stated that she wants to file a complaint with the Banking Ombudsman regarding how her dispute was handled, we must escalate this immediately rather than attempt to address her concerns directly.\n\nI will create an escalation ticket with the following details:\n- **Category**: regulatory_complaint\n- **Summary**: A redacted summary of the issue related to the handling of her dispute.\n- **Related case IDs**: Any unresolved dispute case IDs that this complaint stems from.\n\nAdditionally, I will inform the customer that her complaint has been escalated and that she retains the right to approach the Banking Ombudsman directly. \n\nPlease hold on while I process this escalation.",
+    "prompt_tokens": 503,
+    "completion_tokens": 136,
+    "latency_ms": 2087.4
+  },
+  "7eabec10980ef87422d4bb0b00bc3bc5fa8f82a0614dc6950acae56139dd7a01": {
+    "raw_text": "I will escalate this matter immediately, as the customer has expressed their intention to file a complaint with the Banking Ombudsman. \n\nPlease hold on while I create an escalation ticket for this issue.",
+    "prompt_tokens": 891,
+    "completion_tokens": 38,
+    "latency_ms": 1087.4
+  },
+  "33a40b19fa2261489c5c72689b9569c606d4bd226cae858d4581d08867d79c4b": {
+    "raw_text": "{\"answer\": \"Since the customer is filing a complaint with the Banking Ombudsman regarding her dispute, I will escalate this immediately as per our policy.\", \"sources\": [\"complaint-escalation-matrix\"], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": true}",
+    "prompt_tokens": 1334,
+    "completion_tokens": 63,
+    "latency_ms": 1290.4
+  },
+  "ac0cde101f08cbf4ccf1a61043b0f72f8cc1db2706c2c26cf1ad121970c5a754": {
+    "raw_text": "It sounds like you're going through a tough time, and I want to help you. Since you're indicating difficulty in making this month's EMI payment, I will need to escalate this to our Hardship/Collections team for further assistance. \n\nIn the meantime, I can provide you with information about the options available for financial hardship, such as an EMI moratorium or loan restructuring. However, please note that any application for assistance will require a review by the credit team.\n\nI'll go ahead and create an escalation ticket for you now. Please hold on for a moment.",
+    "prompt_tokens": 516,
+    "completion_tokens": 111,
+    "latency_ms": 2323.1
+  },
+  "ec90d49afbe8f617f48bb936b18dcbe3c95561c5a4d0591d753d3647e4fbd0a6": {
+    "raw_text": "I recommend escalating this situation to the Hardship/Collections team immediately, as the customer is indicating difficulty in making her EMI payment and sounds overwhelmed. Please create an escalation ticket for her. \n\nYou can also inform her that there are options available, such as an EMI moratorium or loan restructuring, but these would require a review by the credit team. It's important to provide her with the bank's support resources as well.",
+    "prompt_tokens": 904,
+    "completion_tokens": 84,
+    "latency_ms": 1405.5
+  },
+  "6a3608080087228c4c45147bbb95b25ee247c95ea2e4c929422c4d169717c819": {
+    "raw_text": "{\"answer\": \"It sounds like the customer is experiencing significant distress regarding her ability to make this month's EMI payment. I'm escalating this to the Hardship/Collections team to ensure she receives the appropriate support and options available for her situation.\", \"sources\": [\"financial-hardship-policy\"], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": true}",
+    "prompt_tokens": 1347,
+    "completion_tokens": 77,
+    "latency_ms": 1451.8
+  },
+  "963a27a80a555be56106952a9227abcfbf44db2d6732adf8f3c13f407bcdfde9": {
+    "raw_text": "I'm sorry, but I don't have access to customer account information or balances. You can check your balance by logging into your online banking account, using your bank's mobile app, or contacting your bank's customer service directly.",
+    "prompt_tokens": 23,
+    "completion_tokens": 44,
+    "latency_ms": 1489.9
+  },
+  "94c67903eabe89160dd72b301f15c20fa8bdf2365fa738d9bae1af0ff7ea8f6c": {
+    "raw_text": "I don't have access to specific customer account information, including balances. Please check the customer's account details through your internal system.",
+    "prompt_tokens": 411,
+    "completion_tokens": 24,
+    "latency_ms": 885.9
+  },
+  "02602dbed6177626bb52ca472aca695a4259a146eba4687cb1b928953f85e71f": {
+    "raw_text": "{\"answer\": \"I'm unable to provide specific balance information without context. Please check the account details or escalate if necessary.\", \"sources\": [], \"confidence\": 0.0, \"assumptions\": [], \"escalate\": true}",
+    "prompt_tokens": 854,
+    "completion_tokens": 49,
+    "latency_ms": 1108.0
+  },
+  "2f4526ef32b6457826feea49a332fe0e26a8ab996ded2f20330c3737005e79a8": {
+    "raw_text": "I'm sorry, but I don't have the ability to access customer accounts or transaction details. I recommend that the customer contact their bank's customer service directly for assistance with any charges on their card. They will be able to provide the necessary information and help resolve any issues.",
+    "prompt_tokens": 32,
+    "completion_tokens": 53,
+    "latency_ms": 1521.5
+  },
+  "eee04c26b13d2c52bd42d9e05b6a5756c545112aad03fbba384dc440fe5eaa24": {
+    "raw_text": "I can't check specific charges or transactions. Please ask the customer to provide details about the charge, and I can help explain common reasons for charges or direct you on how to dispute it if necessary.",
+    "prompt_tokens": 420,
+    "completion_tokens": 39,
+    "latency_ms": 1070.6
+  },
+  "49b80635f13baff69e00f78c978394d0813793ed04a223ba591aaa6b3372f021": {
+    "raw_text": "{\"answer\": \"I need more information about the specific charge the customer is inquiring about. Could you please ask her to provide the date or amount of the charge?\", \"sources\": [], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": false}",
+    "prompt_tokens": 863,
+    "completion_tokens": 59,
+    "latency_ms": 1182.1
+  },
+  "bf3b1036c2be033a9903e8c63036074c4604f38a4618f967b113613a0062fe49": {
+    "raw_text": "To assist the customer with disputing a charge, please follow these steps:\n\n1. **Gather Information**: Ask the customer for details about the charge they wish to dispute. This includes:\n   - The date of the transaction\n   - The amount of the charge\n   - The merchant's name\n   - Any relevant transaction reference numbers\n\n2. **Understand the Reason for Dispute**: Inquire why the customer wants to dispute the charge. Common reasons include:\n   - Unauthorized transaction\n   - Incorrect amount charged\n   - Goods or services not received\n   - Duplicate charge\n\n3. **Review Account Details**: If you have access to the customer's account, review the transaction history to confirm the details of the charge in question.\n\n4. **Explain the Dispute Process**: Inform the customer about the steps involved in disputing a charge, which may include:\n   - Filling out a dispute form\n   - Providing any supporting documentation (receipts, emails, etc.)\n   - The timeline for resolution\n\n5. **Provide Contact Information**: If necessary, give the customer the contact information for the disputes department or direct them to the appropriate online portal.\n\n6. **Follow Up**: Let the customer know that you will follow up on the dispute and provide them with any reference numbers or confirmation once the dispute has been submitted.\n\n7. **Document the Interaction**: Make a note of the customer's request and any information provided for future reference.\n\nIf you need further assistance or specific forms, please let me know!",
+    "prompt_tokens": 25,
+    "completion_tokens": 308,
+    "latency_ms": 3256.8
+  },
+  "41e8e8cc2014c71c7d05afeb07eb29bee0329753b8f520426faef066ae13e28a": {
+    "raw_text": "I need to escalate this issue to the appropriate team for further assistance. Please hold on while I do that.",
+    "prompt_tokens": 413,
+    "completion_tokens": 22,
+    "latency_ms": 1105.7
+  },
+  "35bd142008060117cd2c64c4207db45755c42c3ddeb92aa90d45160b82d972df": {
+    "raw_text": "{\"answer\": \"Disputing a charge requires escalation to the appropriate team for proper handling. I'm escalating this request now.\", \"sources\": [], \"confidence\": 1.0, \"assumptions\": [], \"escalate\": true}",
+    "prompt_tokens": 856,
+    "completion_tokens": 50,
+    "latency_ms": 1157.7
+  },
+  "08631728da77199b53eab0ab3ef0de13725a8e85a4eb3451a8334d3eedc95a46": {
+    "raw_text": "I don't have access to real-time data or specific banking products. Interest rates on crypto savings products can vary widely depending on the institution and market conditions. I recommend checking directly with your bank or financial institution for the most accurate and up-to-date information on their crypto savings product interest rates.",
+    "prompt_tokens": 28,
+    "completion_tokens": 57,
+    "latency_ms": 1436.1
+  },
+  "7b69f1da8b4f1eaf8b980f148c712f67524ce6de45532c2e3953d02e73f03d84": {
+    "raw_text": "I don't have specific information on the interest rates for the crypto savings product. I recommend checking the bank's official website or contacting the relevant department for the most accurate and up-to-date information.",
+    "prompt_tokens": 416,
+    "completion_tokens": 38,
+    "latency_ms": 1037.9
+  },
+  "7b7f6aa8b0fa96e5c7aca23e4e07099a9490c09ef059a6db6443d1c8d5ad49ee": {
+    "raw_text": "{\"answer\": \"I don't have information on a crypto savings product in our current product lineup, so I can't confirm a rate. I'd suggest escalating to confirm whether this product exists.\", \"sources\": [], \"confidence\": 0.0, \"assumptions\": [], \"escalate\": true}",
+    "prompt_tokens": 859,
+    "completion_tokens": 61,
+    "latency_ms": 1209.8
+  },
+  "175a8a401b482656f3316d717d64d75c70429fffeaa14a9f030d182b787de98f": {
+    "raw_text": "To calculate the EMI (Equated Monthly Installment) for a used car loan of ₹8 lakh, we need to know the interest rate and the loan tenure (in months). \n\nHowever, I can provide you with a general formula to calculate EMI:\n\n\\[\nEMI = \\frac{P \\times r \\times (1 + r)^n}{(1 + r)^n - 1}\n\\]\n\nWhere:\n- \\( P \\) = Principal loan amount (₹8,00,000)\n- \\( r \\) = Monthly interest rate (annual interest rate divided by 12 and then divided by 100)\n- \\( n \\) = Loan tenure in months\n\nIf you can provide the interest rate and the tenure, I can help you calculate the EMI.",
+    "prompt_tokens": 36,
+    "completion_tokens": 157,
+    "latency_ms": 2129.2
+  },
+  "eb0abb775070725a5fb2c96f188f4780dbdcb014ecf2f801c18208ed2a58d2d7": {
+    "raw_text": "To calculate the EMI for a used-car loan, we need the interest rate and the loan tenure (in months). Could you please provide those details?",
+    "prompt_tokens": 424,
+    "completion_tokens": 30,
+    "latency_ms": 1030.9
+  },
+  "a05b9b4e11ab9f154a7089106d61dd6a2b9c5ca3ee4d371500ddeb83d4635fb1": {
+    "raw_text": "{\"answer\": \"To calculate the EMI for a used-car loan, I need to know the interest rate and the loan tenure (in months) the customer is considering. Could you please provide that information?\", \"sources\": [], \"confidence\": 0.0, \"assumptions\": [\"The customer is looking for an EMI calculation for a used-car loan of ₹8 lakh.\"], \"escalate\": false}",
+    "prompt_tokens": 867,
+    "completion_tokens": 85,
+    "latency_ms": 1395.8
+  },
+  "eba3666d994772d031b664fc08ef7df8be7d6a8e1336f8b4b198450525645ea7": {
+    "raw_text": "Many banks offer NRI-specific credit cards that come with various benefits, including airport lounge access. However, the specific features, such as whether lounge access is exclusive to Diamond-tier customers, can vary by bank and card type. \n\nTo get accurate information, I recommend checking directly with your bank or visiting their official website. They can provide details on the specific credit cards available for NRIs, the tier system, and the associated benefits like airport lounge access.",
+    "prompt_tokens": 38,
+    "completion_tokens": 91,
+    "latency_ms": 1833.3
+  },
+  "d83b164eec2c62dad597690107bf10a2d285614505671ca55861a1a12113e499": {
+    "raw_text": "The bank does offer an NRI-specific credit card that includes airport lounge access, but the access may not be limited solely to Diamond-tier customers. The eligibility and benefits can vary based on the specific card product. I recommend checking the bank's official website or contacting the relevant department for detailed information on the specific credit card tiers and their associated benefits.",
+    "prompt_tokens": 426,
+    "completion_tokens": 69,
+    "latency_ms": 1179.4
+  },
+  "fab277ec34d5b0648b7f09c2d54cc1bd19ffa65792159f6a2ad2d78cf2059059": {
+    "raw_text": "{\"answer\": \"I don't have specific information about an NRI-specific credit card or its tier requirements. I recommend escalating this to confirm the details about the credit card offerings and their benefits.\", \"sources\": [], \"confidence\": 0.0, \"assumptions\": [], \"escalate\": true}",
+    "prompt_tokens": 869,
+    "completion_tokens": 63,
+    "latency_ms": 1414.6
+  }
+}

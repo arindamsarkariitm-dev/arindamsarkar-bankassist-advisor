@@ -1,0 +1,632 @@
+{
+  "0.35": {
+    "floor": 0.35,
+    "hit_at_1": 0.9,
+    "hit_at_3": 0.95,
+    "mrr": 0.9166666666666666,
+    "per_query": [
+      {
+        "query": "What's the daily ATM withdrawal limit on a debit card?",
+        "expected": "debit-card-terms",
+        "rank": 1,
+        "retrieved": [
+          "debit-card-terms",
+          "upi-neft-imps-limits"
+        ]
+      },
+      {
+        "query": "How do I block a lost or stolen debit card?",
+        "expected": "debit-card-terms",
+        "rank": 1,
+        "retrieved": [
+          "debit-card-terms"
+        ]
+      },
+      {
+        "query": "When is the minimum amount due on a credit card bill?",
+        "expected": "credit-card-terms",
+        "rank": 1,
+        "retrieved": [
+          "credit-card-terms",
+          "credit-card-terms"
+        ]
+      },
+      {
+        "query": "What happens if I withdraw cash using my credit card?",
+        "expected": "credit-card-terms",
+        "rank": 1,
+        "retrieved": [
+          "credit-card-terms",
+          "debit-card-terms",
+          "credit-card-terms"
+        ]
+      },
+      {
+        "query": "How long does it take to resolve a disputed transaction?",
+        "expected": "dispute-chargeback-procedure",
+        "rank": 1,
+        "retrieved": [
+          "dispute-chargeback-procedure"
+        ]
+      },
+      {
+        "query": "What evidence do I need to raise a dispute?",
+        "expected": "dispute-chargeback-procedure",
+        "rank": 1,
+        "retrieved": [
+          "dispute-chargeback-procedure"
+        ]
+      },
+      {
+        "query": "What documents are needed for a home loan application?",
+        "expected": "home-loan-document-checklist",
+        "rank": 1,
+        "retrieved": [
+          "home-loan-document-checklist",
+          "home-loan-document-checklist",
+          "financial-hardship-policy"
+        ]
+      },
+      {
+        "query": "What's the minimum credit score for home loan eligibility?",
+        "expected": "home-loan-document-checklist",
+        "rank": 1,
+        "retrieved": [
+          "home-loan-document-checklist"
+        ]
+      },
+      {
+        "query": "How often do I need to complete re-KYC?",
+        "expected": "kyc-requirements",
+        "rank": 1,
+        "retrieved": [
+          "kyc-requirements",
+          "kyc-requirements"
+        ]
+      },
+      {
+        "query": "What happens if I don't complete KYC on time?",
+        "expected": "kyc-requirements",
+        "rank": 1,
+        "retrieved": [
+          "kyc-requirements",
+          "kyc-requirements"
+        ]
+      },
+      {
+        "query": "What's the interest rate on a fixed deposit?",
+        "expected": "savings-interest-policy",
+        "rank": 1,
+        "retrieved": [
+          "savings-interest-policy"
+        ]
+      },
+      {
+        "query": "How is savings account interest calculated?",
+        "expected": "savings-interest-policy",
+        "rank": 1,
+        "retrieved": [
+          "savings-interest-policy",
+          "fee-schedule",
+          "fee-schedule"
+        ]
+      },
+      {
+        "query": "What's the maximum amount I can send via IMPS?",
+        "expected": "upi-neft-imps-limits",
+        "rank": 1,
+        "retrieved": [
+          "upi-neft-imps-limits"
+        ]
+      },
+      {
+        "query": "Is there a fee for NEFT transfers?",
+        "expected": "upi-neft-imps-limits",
+        "rank": 1,
+        "retrieved": [
+          "upi-neft-imps-limits",
+          "credit-card-terms",
+          "fee-schedule",
+          "debit-card-terms"
+        ]
+      },
+      {
+        "query": "How do I escalate a complaint to the banking ombudsman?",
+        "expected": "complaint-escalation-matrix",
+        "rank": 1,
+        "retrieved": [
+          "complaint-escalation-matrix",
+          "dispute-chargeback-procedure",
+          "financial-hardship-policy"
+        ]
+      },
+      {
+        "query": "What's the response time for a Level 2 complaint escalation?",
+        "expected": "complaint-escalation-matrix",
+        "rank": 1,
+        "retrieved": [
+          "complaint-escalation-matrix",
+          "dispute-chargeback-procedure"
+        ]
+      },
+      {
+        "query": "What options are available if I can't pay my EMI due to job loss?",
+        "expected": "financial-hardship-policy",
+        "rank": 1,
+        "retrieved": [
+          "financial-hardship-policy"
+        ]
+      },
+      {
+        "query": "What documents are needed to apply for an EMI moratorium?",
+        "expected": "financial-hardship-policy",
+        "rank": 1,
+        "retrieved": [
+          "financial-hardship-policy",
+          "home-loan-document-checklist",
+          "home-loan-document-checklist"
+        ]
+      },
+      {
+        "query": "What's the late payment fee on a credit card?",
+        "expected": "fee-schedule",
+        "rank": 3,
+        "retrieved": [
+          "credit-card-terms",
+          "credit-card-terms",
+          "fee-schedule",
+          "fee-schedule"
+        ]
+      },
+      {
+        "query": "How much does it cost to replace a lost debit card?",
+        "expected": "fee-schedule",
+        "rank": null,
+        "retrieved": [
+          "debit-card-terms"
+        ]
+      }
+    ],
+    "probe_leaks": [
+      {
+        "query": "What's the interest rate on your crypto savings product?",
+        "n_results": 3,
+        "doc_ids": [
+          "savings-interest-policy",
+          "fee-schedule",
+          "fee-schedule"
+        ],
+        "scores": [
+          0.4907,
+          0.3764,
+          0.3695
+        ]
+      },
+      {
+        "query": "What's the EMI on a used-car loan?",
+        "n_results": 0,
+        "doc_ids": [],
+        "scores": []
+      },
+      {
+        "query": "Does the bank offer an NRI-specific credit card with Diamond-tier lounge access?",
+        "n_results": 4,
+        "doc_ids": [
+          "debit-card-terms",
+          "kyc-requirements",
+          "home-loan-document-checklist",
+          "credit-card-terms"
+        ],
+        "scores": [
+          0.459,
+          0.3525,
+          0.3578,
+          0.3738
+        ]
+      }
+    ],
+    "probes_correctly_empty": 1
+  },
+  "0.4": {
+    "floor": 0.4,
+    "hit_at_1": 0.9,
+    "hit_at_3": 0.95,
+    "mrr": 0.9166666666666666,
+    "per_query": [
+      {
+        "query": "What's the daily ATM withdrawal limit on a debit card?",
+        "expected": "debit-card-terms",
+        "rank": 1,
+        "retrieved": [
+          "debit-card-terms",
+          "upi-neft-imps-limits"
+        ]
+      },
+      {
+        "query": "How do I block a lost or stolen debit card?",
+        "expected": "debit-card-terms",
+        "rank": 1,
+        "retrieved": [
+          "debit-card-terms"
+        ]
+      },
+      {
+        "query": "When is the minimum amount due on a credit card bill?",
+        "expected": "credit-card-terms",
+        "rank": 1,
+        "retrieved": [
+          "credit-card-terms"
+        ]
+      },
+      {
+        "query": "What happens if I withdraw cash using my credit card?",
+        "expected": "credit-card-terms",
+        "rank": 1,
+        "retrieved": [
+          "credit-card-terms",
+          "debit-card-terms",
+          "credit-card-terms"
+        ]
+      },
+      {
+        "query": "How long does it take to resolve a disputed transaction?",
+        "expected": "dispute-chargeback-procedure",
+        "rank": 1,
+        "retrieved": [
+          "dispute-chargeback-procedure"
+        ]
+      },
+      {
+        "query": "What evidence do I need to raise a dispute?",
+        "expected": "dispute-chargeback-procedure",
+        "rank": 1,
+        "retrieved": [
+          "dispute-chargeback-procedure"
+        ]
+      },
+      {
+        "query": "What documents are needed for a home loan application?",
+        "expected": "home-loan-document-checklist",
+        "rank": 1,
+        "retrieved": [
+          "home-loan-document-checklist",
+          "home-loan-document-checklist"
+        ]
+      },
+      {
+        "query": "What's the minimum credit score for home loan eligibility?",
+        "expected": "home-loan-document-checklist",
+        "rank": 1,
+        "retrieved": [
+          "home-loan-document-checklist"
+        ]
+      },
+      {
+        "query": "How often do I need to complete re-KYC?",
+        "expected": "kyc-requirements",
+        "rank": 1,
+        "retrieved": [
+          "kyc-requirements",
+          "kyc-requirements"
+        ]
+      },
+      {
+        "query": "What happens if I don't complete KYC on time?",
+        "expected": "kyc-requirements",
+        "rank": 1,
+        "retrieved": [
+          "kyc-requirements",
+          "kyc-requirements"
+        ]
+      },
+      {
+        "query": "What's the interest rate on a fixed deposit?",
+        "expected": "savings-interest-policy",
+        "rank": 1,
+        "retrieved": [
+          "savings-interest-policy"
+        ]
+      },
+      {
+        "query": "How is savings account interest calculated?",
+        "expected": "savings-interest-policy",
+        "rank": 1,
+        "retrieved": [
+          "savings-interest-policy"
+        ]
+      },
+      {
+        "query": "What's the maximum amount I can send via IMPS?",
+        "expected": "upi-neft-imps-limits",
+        "rank": 1,
+        "retrieved": [
+          "upi-neft-imps-limits"
+        ]
+      },
+      {
+        "query": "Is there a fee for NEFT transfers?",
+        "expected": "upi-neft-imps-limits",
+        "rank": 1,
+        "retrieved": [
+          "upi-neft-imps-limits",
+          "fee-schedule",
+          "fee-schedule",
+          "credit-card-terms"
+        ]
+      },
+      {
+        "query": "How do I escalate a complaint to the banking ombudsman?",
+        "expected": "complaint-escalation-matrix",
+        "rank": 1,
+        "retrieved": [
+          "complaint-escalation-matrix",
+          "dispute-chargeback-procedure"
+        ]
+      },
+      {
+        "query": "What's the response time for a Level 2 complaint escalation?",
+        "expected": "complaint-escalation-matrix",
+        "rank": 1,
+        "retrieved": [
+          "complaint-escalation-matrix"
+        ]
+      },
+      {
+        "query": "What options are available if I can't pay my EMI due to job loss?",
+        "expected": "financial-hardship-policy",
+        "rank": 1,
+        "retrieved": [
+          "financial-hardship-policy"
+        ]
+      },
+      {
+        "query": "What documents are needed to apply for an EMI moratorium?",
+        "expected": "financial-hardship-policy",
+        "rank": 1,
+        "retrieved": [
+          "financial-hardship-policy",
+          "home-loan-document-checklist",
+          "home-loan-document-checklist"
+        ]
+      },
+      {
+        "query": "What's the late payment fee on a credit card?",
+        "expected": "fee-schedule",
+        "rank": 3,
+        "retrieved": [
+          "credit-card-terms",
+          "credit-card-terms",
+          "fee-schedule",
+          "fee-schedule"
+        ]
+      },
+      {
+        "query": "How much does it cost to replace a lost debit card?",
+        "expected": "fee-schedule",
+        "rank": null,
+        "retrieved": [
+          "debit-card-terms"
+        ]
+      }
+    ],
+    "probe_leaks": [
+      {
+        "query": "What's the interest rate on your crypto savings product?",
+        "n_results": 1,
+        "doc_ids": [
+          "savings-interest-policy"
+        ],
+        "scores": [
+          0.4907
+        ]
+      },
+      {
+        "query": "What's the EMI on a used-car loan?",
+        "n_results": 0,
+        "doc_ids": [],
+        "scores": []
+      },
+      {
+        "query": "Does the bank offer an NRI-specific credit card with Diamond-tier lounge access?",
+        "n_results": 2,
+        "doc_ids": [
+          "debit-card-terms",
+          "credit-card-terms"
+        ],
+        "scores": [
+          0.459,
+          0.451
+        ]
+      }
+    ],
+    "probes_correctly_empty": 1
+  },
+  "0.45": {
+    "floor": 0.45,
+    "hit_at_1": 0.65,
+    "hit_at_3": 0.65,
+    "mrr": 0.65,
+    "per_query": [
+      {
+        "query": "What's the daily ATM withdrawal limit on a debit card?",
+        "expected": "debit-card-terms",
+        "rank": 1,
+        "retrieved": [
+          "debit-card-terms"
+        ]
+      },
+      {
+        "query": "How do I block a lost or stolen debit card?",
+        "expected": "debit-card-terms",
+        "rank": null,
+        "retrieved": []
+      },
+      {
+        "query": "When is the minimum amount due on a credit card bill?",
+        "expected": "credit-card-terms",
+        "rank": null,
+        "retrieved": []
+      },
+      {
+        "query": "What happens if I withdraw cash using my credit card?",
+        "expected": "credit-card-terms",
+        "rank": null,
+        "retrieved": []
+      },
+      {
+        "query": "How long does it take to resolve a disputed transaction?",
+        "expected": "dispute-chargeback-procedure",
+        "rank": 1,
+        "retrieved": [
+          "dispute-chargeback-procedure"
+        ]
+      },
+      {
+        "query": "What evidence do I need to raise a dispute?",
+        "expected": "dispute-chargeback-procedure",
+        "rank": 1,
+        "retrieved": [
+          "dispute-chargeback-procedure"
+        ]
+      },
+      {
+        "query": "What documents are needed for a home loan application?",
+        "expected": "home-loan-document-checklist",
+        "rank": 1,
+        "retrieved": [
+          "home-loan-document-checklist",
+          "home-loan-document-checklist"
+        ]
+      },
+      {
+        "query": "What's the minimum credit score for home loan eligibility?",
+        "expected": "home-loan-document-checklist",
+        "rank": null,
+        "retrieved": []
+      },
+      {
+        "query": "How often do I need to complete re-KYC?",
+        "expected": "kyc-requirements",
+        "rank": 1,
+        "retrieved": [
+          "kyc-requirements",
+          "kyc-requirements"
+        ]
+      },
+      {
+        "query": "What happens if I don't complete KYC on time?",
+        "expected": "kyc-requirements",
+        "rank": 1,
+        "retrieved": [
+          "kyc-requirements",
+          "kyc-requirements"
+        ]
+      },
+      {
+        "query": "What's the interest rate on a fixed deposit?",
+        "expected": "savings-interest-policy",
+        "rank": 1,
+        "retrieved": [
+          "savings-interest-policy"
+        ]
+      },
+      {
+        "query": "How is savings account interest calculated?",
+        "expected": "savings-interest-policy",
+        "rank": 1,
+        "retrieved": [
+          "savings-interest-policy"
+        ]
+      },
+      {
+        "query": "What's the maximum amount I can send via IMPS?",
+        "expected": "upi-neft-imps-limits",
+        "rank": 1,
+        "retrieved": [
+          "upi-neft-imps-limits"
+        ]
+      },
+      {
+        "query": "Is there a fee for NEFT transfers?",
+        "expected": "upi-neft-imps-limits",
+        "rank": 1,
+        "retrieved": [
+          "upi-neft-imps-limits"
+        ]
+      },
+      {
+        "query": "How do I escalate a complaint to the banking ombudsman?",
+        "expected": "complaint-escalation-matrix",
+        "rank": 1,
+        "retrieved": [
+          "complaint-escalation-matrix"
+        ]
+      },
+      {
+        "query": "What's the response time for a Level 2 complaint escalation?",
+        "expected": "complaint-escalation-matrix",
+        "rank": 1,
+        "retrieved": [
+          "complaint-escalation-matrix"
+        ]
+      },
+      {
+        "query": "What options are available if I can't pay my EMI due to job loss?",
+        "expected": "financial-hardship-policy",
+        "rank": null,
+        "retrieved": []
+      },
+      {
+        "query": "What documents are needed to apply for an EMI moratorium?",
+        "expected": "financial-hardship-policy",
+        "rank": 1,
+        "retrieved": [
+          "financial-hardship-policy"
+        ]
+      },
+      {
+        "query": "What's the late payment fee on a credit card?",
+        "expected": "fee-schedule",
+        "rank": null,
+        "retrieved": []
+      },
+      {
+        "query": "How much does it cost to replace a lost debit card?",
+        "expected": "fee-schedule",
+        "rank": null,
+        "retrieved": []
+      }
+    ],
+    "probe_leaks": [
+      {
+        "query": "What's the interest rate on your crypto savings product?",
+        "n_results": 1,
+        "doc_ids": [
+          "savings-interest-policy"
+        ],
+        "scores": [
+          0.4907
+        ]
+      },
+      {
+        "query": "What's the EMI on a used-car loan?",
+        "n_results": 0,
+        "doc_ids": [],
+        "scores": []
+      },
+      {
+        "query": "Does the bank offer an NRI-specific credit card with Diamond-tier lounge access?",
+        "n_results": 2,
+        "doc_ids": [
+          "debit-card-terms",
+          "credit-card-terms"
+        ],
+        "scores": [
+          0.459,
+          0.451
+        ]
+      }
+    ],
+    "probes_correctly_empty": 1
+  }
+}

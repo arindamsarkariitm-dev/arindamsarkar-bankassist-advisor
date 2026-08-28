@@ -1,0 +1,39 @@
+{
+  "forget_response": "Done -- I've cleared this session's memory and this customer's saved preferences.",
+  "before": {
+    "session": {
+      "session_id": "47371bf1-8997-445d-bd6f-b968571aa87e",
+      "customer_id": "CUST-0001",
+      "created_at": 1787719347.7256403,
+      "last_active": 1787719371.5384562,
+      "turns": [
+        {
+          "redacted_input": "What's the customer's savings account balance?",
+          "redacted_response": "The balance in the customer's Regular Savings Account is [AMOUNT].",
+          "intent": "account_specific",
+          "timestamp": 1787719352.8233707
+        },
+        {
+          "redacted_input": "What's the late payment fee on a credit card?",
+          "redacted_response": "I don't have the information about the late payment fee on a credit card. I recommend escalating this for further assistance.",
+          "intent": "general_product",
+          "timestamp": 1787719366.3506978
+        },
+        {
+          "redacted_input": "Going back to her account -- what's the balance again?",
+          "redacted_response": "The balance in the customer's Regular Savings Account is [AMOUNT].",
+          "intent": "account_specific",
+          "timestamp": 1787719371.5384562
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "preferences": {
+      "style": "terse"
+    }
+  },
+  "after": {
+    "session": null,
+    "preferences": {}
+  }
+}

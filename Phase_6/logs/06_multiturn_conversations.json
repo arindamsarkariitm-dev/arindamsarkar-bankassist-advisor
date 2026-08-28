@@ -1,0 +1,114 @@
+{
+  "pronoun_ellipsis": {
+    "label": "Pronoun/ellipsis resolution",
+    "customer_id": "CUST-0001",
+    "session_id": "bc724ebd-84a7-4316-bb05-ce6a94070c17",
+    "turns": [
+      {
+        "input": "What's the customer's savings account balance?",
+        "intent": "account_specific",
+        "route": "proceed",
+        "tools_called": [
+          "get_account_summary"
+        ],
+        "final_response": "The balance in the customer's Regular Savings Account is ₹184,230.50."
+      },
+      {
+        "input": "And the RD?",
+        "intent": "account_specific",
+        "route": "proceed",
+        "tools_called": [
+          "get_account_summary"
+        ],
+        "final_response": "The customer's RD - 24 Month account is currently active and is set to mature on February 1, 2027. However, I don't have the balance information for this account."
+      },
+      {
+        "input": "What about her credit card?",
+        "intent": "account_specific",
+        "route": "proceed",
+        "tools_called": [
+          "get_account_summary"
+        ],
+        "final_response": "The customer's Platinum Rewards Credit Card is currently active and has a credit limit of ₹250,000."
+      }
+    ]
+  },
+  "five_turn_carryover": {
+    "label": "Context carry-over across 5 turns",
+    "customer_id": "CUST-0002",
+    "session_id": "59186ec5-1f66-4c4e-bc0f-fd071c6c92e8",
+    "turns": [
+      {
+        "input": "What's the customer's savings account balance?",
+        "intent": "account_specific",
+        "route": "proceed",
+        "tools_called": [
+          "get_account_summary"
+        ],
+        "final_response": "The balance in the customer's Regular Savings Account is ₹96,410.10."
+      },
+      {
+        "input": "When was that account opened?",
+        "intent": "account_specific",
+        "route": "proceed",
+        "tools_called": [],
+        "final_response": "I don't have that information available. You may want to check with a representative for the account opening date."
+      },
+      {
+        "input": "Does he have any other accounts?",
+        "intent": "general_product",
+        "route": "proceed",
+        "tools_called": [],
+        "final_response": "The customer has a Regular Savings Account, a Home Loan - Floating Rate, and a Gold Cashback Credit Card."
+      },
+      {
+        "input": "What's the outstanding balance on that one?",
+        "intent": "account_specific",
+        "route": "proceed",
+        "tools_called": [
+          "get_account_summary"
+        ],
+        "final_response": "The outstanding balance in the customer's Regular Savings Account is ₹96,410.10."
+      },
+      {
+        "input": "And what's the interest rate on it?",
+        "intent": "general_product",
+        "route": "proceed",
+        "tools_called": [],
+        "final_response": "I don't have the information about the interest rate on the Regular Savings Account. You may want to check with a representative for that detail."
+      }
+    ]
+  },
+  "topic_switch": {
+    "label": "Topic switch without bleed",
+    "customer_id": "CUST-0001",
+    "session_id": "47371bf1-8997-445d-bd6f-b968571aa87e",
+    "turns": [
+      {
+        "input": "What's the customer's savings account balance?",
+        "intent": "account_specific",
+        "route": "proceed",
+        "tools_called": [
+          "get_account_summary"
+        ],
+        "final_response": "The balance in the customer's Regular Savings Account is ₹184,230.50."
+      },
+      {
+        "input": "What's the late payment fee on a credit card?",
+        "intent": "general_product",
+        "route": "proceed",
+        "tools_called": [],
+        "final_response": "I don't have the information about the late payment fee on a credit card. I recommend escalating this for further assistance."
+      },
+      {
+        "input": "Going back to her account -- what's the balance again?",
+        "intent": "account_specific",
+        "route": "proceed",
+        "tools_called": [
+          "get_account_summary"
+        ],
+        "final_response": "The balance in the customer's Regular Savings Account is ₹184,230.50."
+      }
+    ]
+  }
+}

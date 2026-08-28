@@ -1,0 +1,24 @@
+{
+  "input": "Compare the customer's savings account balance and her credit card's available credit limit, and tell me which is higher.",
+  "plan": {
+    "is_multi_step": true,
+    "steps": [
+      {
+        "step": 1,
+        "description": "Retrieve the savings account balance using the get_account_summary tool.",
+        "likely_tool": "get_account_summary"
+      },
+      {
+        "step": 2,
+        "description": "Retrieve the credit card's available credit limit using the get_account_summary tool.",
+        "likely_tool": "get_account_summary"
+      }
+    ],
+    "caveat": "This is information only, not a recommendation."
+  },
+  "tools_called": [
+    "get_account_summary",
+    "get_account_summary"
+  ],
+  "final_response": "The balance in your Regular Savings Account is ₹184,230.50, while the available credit limit on your Platinum Rewards Credit Card is ₹250,000. Therefore, the credit card's available credit limit is higher. This is information only, not a recommendation."
+}

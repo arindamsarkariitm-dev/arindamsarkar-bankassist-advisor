@@ -1,0 +1,1253 @@
+{
+  "sessions": {
+    "aa5a6451-722a-47af-8f7b-72a54d44aed2": {
+      "session_id": "aa5a6451-722a-47af-8f7b-72a54d44aed2",
+      "customer_id": "CUST-0001",
+      "created_at": 1787718391.939294,
+      "last_active": 1787718403.3841283,
+      "turns": [
+        {
+          "redacted_input": "Customer's asking why she was charged [AMOUNT] on 14 July — can you check?",
+          "redacted_response": "The charge of [AMOUNT] on 14 July was a \"Foreign Transaction Fee (3.5%) on POS Purchase - Marina Bay Suites, Singapore, 12 Jul 2026.\"",
+          "intent": "account_specific",
+          "timestamp": 1787718399.3393118
+        },
+        {
+          "redacted_input": "And what's her savings account balance?",
+          "redacted_response": "The balance in her Regular Savings Account is [AMOUNT].",
+          "intent": "account_specific",
+          "timestamp": 1787718403.3841283
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "4a34ea78-b6e0-4c9e-a1c7-bbff9bf41d3b": {
+      "session_id": "4a34ea78-b6e0-4c9e-a1c7-bbff9bf41d3b",
+      "customer_id": "CUST-0001",
+      "created_at": 1787718424.6320763,
+      "last_active": 1787718438.6951566,
+      "turns": [
+        {
+          "redacted_input": "What's the customer's savings account balance?",
+          "redacted_response": "The balance in the customer's Regular Savings Account is [AMOUNT].",
+          "intent": "account_specific",
+          "timestamp": 1787718429.8478153
+        },
+        {
+          "redacted_input": "And the RD?",
+          "redacted_response": "The customer's RD - 24 Month account is currently active, and it is set to mature on February 1, 2027.",
+          "intent": "account_specific",
+          "timestamp": 1787718434.2869284
+        },
+        {
+          "redacted_input": "What about her credit card?",
+          "redacted_response": "I don't have the information about the customer's Platinum Rewards Credit Card at the moment. It may be best to escalate this for further assistance.",
+          "intent": "account_specific",
+          "timestamp": 1787718438.6951566
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "9aed356e-b024-4e3a-ae5e-7ed8acfbdfc6": {
+      "session_id": "9aed356e-b024-4e3a-ae5e-7ed8acfbdfc6",
+      "customer_id": "CUST-0001",
+      "created_at": 1787718550.0957508,
+      "last_active": 1787718563.1873844,
+      "turns": [
+        {
+          "redacted_input": "What's the customer's savings account balance?",
+          "redacted_response": "The balance in the customer's Regular Savings Account is [AMOUNT].",
+          "intent": "account_specific",
+          "timestamp": 1787718554.6104374
+        },
+        {
+          "redacted_input": "And the RD?",
+          "redacted_response": "The customer's RD - 24 Month account is currently active, and it is set to mature on February 1, 2027. However, I don't have the balance information for this account.",
+          "intent": "account_specific",
+          "timestamp": 1787718559.3606644
+        },
+        {
+          "redacted_input": "What about her credit card?",
+          "redacted_response": "The customer's Platinum Rewards Credit Card is currently active and has a credit limit of [AMOUNT].",
+          "intent": "account_specific",
+          "timestamp": 1787718563.1873844
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "aaf69132-47dc-4960-a1f1-5a859adefac7": {
+      "session_id": "aaf69132-47dc-4960-a1f1-5a859adefac7",
+      "customer_id": "CUST-0001",
+      "created_at": 1787719227.5383763,
+      "last_active": 1787719236.0447485,
+      "turns": [
+        {
+          "redacted_input": "Compare the customer's savings account balance and her credit card's available credit limit, and tell me which is higher.",
+          "redacted_response": "The balance in your Regular Savings Account is [AMOUNT], while the available credit limit on your Platinum Rewards Credit Card is [AMOUNT]. Therefore, the credit card's available credit limit is higher. \n\nThis is information only, not a recommendation.",
+          "intent": "account_specific",
+          "timestamp": 1787719236.0447485
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "2364b309-175b-4838-b3c5-ffd5913f1946": {
+      "session_id": "2364b309-175b-4838-b3c5-ffd5913f1946",
+      "customer_id": "CUST-0001",
+      "created_at": 1787719249.7850196,
+      "last_active": 1787719262.093907,
+      "turns": [
+        {
+          "redacted_input": "Customer's asking why she was charged [AMOUNT] on 14 July — can you check?",
+          "redacted_response": "The charge of [AMOUNT] on 14 July was a \"Foreign Transaction Fee (3.5%) on POS Purchase - Marina Bay Suites, Singapore, 12 Jul 2026.\" This fee is typically applied for transactions made in a foreign currency.",
+          "intent": "account_specific",
+          "timestamp": 1787719257.3185399
+        },
+        {
+          "redacted_input": "And what's her savings account balance?",
+          "redacted_response": "The balance in her Regular Savings Account is [AMOUNT].",
+          "intent": "account_specific",
+          "timestamp": 1787719262.093907
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "bc724ebd-84a7-4316-bb05-ce6a94070c17": {
+      "session_id": "bc724ebd-84a7-4316-bb05-ce6a94070c17",
+      "customer_id": "CUST-0001",
+      "created_at": 1787719299.7499447,
+      "last_active": 1787719316.0118873,
+      "turns": [
+        {
+          "redacted_input": "What's the customer's savings account balance?",
+          "redacted_response": "The balance in the customer's Regular Savings Account is [AMOUNT].",
+          "intent": "account_specific",
+          "timestamp": 1787719305.6131675
+        },
+        {
+          "redacted_input": "And the RD?",
+          "redacted_response": "The customer's RD - 24 Month account is currently active and is set to mature on February 1, 2027. However, I don't have the balance information for this account.",
+          "intent": "account_specific",
+          "timestamp": 1787719310.95454
+        },
+        {
+          "redacted_input": "What about her credit card?",
+          "redacted_response": "The customer's Platinum Rewards Credit Card is currently active and has a credit limit of [AMOUNT].",
+          "intent": "account_specific",
+          "timestamp": 1787719316.0118873
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "59186ec5-1f66-4c4e-bc0f-fd071c6c92e8": {
+      "session_id": "59186ec5-1f66-4c4e-bc0f-fd071c6c92e8",
+      "customer_id": "CUST-0002",
+      "created_at": 1787719316.0356407,
+      "last_active": 1787719347.7093856,
+      "turns": [
+        {
+          "redacted_input": "What's the customer's savings account balance?",
+          "redacted_response": "The balance in the customer's Regular Savings Account is [AMOUNT].",
+          "intent": "account_specific",
+          "timestamp": 1787719321.080966
+        },
+        {
+          "redacted_input": "When was that account opened?",
+          "redacted_response": "I don't have that information available. You may want to check with a representative for the account opening date.",
+          "intent": "account_specific",
+          "timestamp": 1787719324.610697
+        },
+        {
+          "redacted_input": "Does he have any other accounts?",
+          "redacted_response": "The customer has a Regular Savings Account, a Home Loan - Floating Rate, and a Gold Cashback Credit Card.",
+          "intent": "general_product",
+          "timestamp": 1787719328.9066024
+        },
+        {
+          "redacted_input": "What's the outstanding balance on that one?",
+          "redacted_response": "The outstanding balance in the customer's Regular Savings Account is [AMOUNT].",
+          "intent": "account_specific",
+          "timestamp": 1787719334.1398656
+        },
+        {
+          "redacted_input": "And what's the interest rate on it?",
+          "redacted_response": "I don't have the information about the interest rate on the Regular Savings Account. You may want to check with a representative for that detail.",
+          "intent": "general_product",
+          "timestamp": 1787719347.7093856
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "c2be483a-d84f-49aa-ab32-186aad721a86": {
+      "session_id": "c2be483a-d84f-49aa-ab32-186aad721a86",
+      "customer_id": "CUST-0001",
+      "created_at": 1787719371.6642613,
+      "last_active": 1787719378.6047013,
+      "turns": [
+        {
+          "redacted_input": "Compare the customer's savings account balance and her credit card's available credit limit, and tell me which is higher.",
+          "redacted_response": "The balance in your Regular Savings Account is [AMOUNT], while the available credit limit on your Platinum Rewards Credit Card is [AMOUNT]. Therefore, the credit card's available credit limit is higher. This is information only, not a recommendation.",
+          "intent": "account_specific",
+          "timestamp": 1787719378.6047013
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "dcca7d5a-9064-4b97-9a55-196fff892674": {
+      "session_id": "dcca7d5a-9064-4b97-9a55-196fff892674",
+      "customer_id": "CUST-0001",
+      "created_at": 1787720490.9868405,
+      "last_active": 1787720505.2919867,
+      "turns": [
+        {
+          "redacted_input": "Customer's asking why she was charged [AMOUNT] on 14 July — can you check?",
+          "redacted_response": "The charge of [AMOUNT] on 14 July was a \"Foreign Transaction Fee (3.5%) on POS Purchase - Marina Bay Suites, Singapore, 12 Jul 2026.\" This fee is typically applied for transactions made in foreign currencies or at international merchants.",
+          "intent": "account_specific",
+          "timestamp": 1787720499.877077
+        },
+        {
+          "redacted_input": "And what's her savings account balance?",
+          "redacted_response": "The balance in her Regular Savings Account is [AMOUNT].",
+          "intent": "account_specific",
+          "timestamp": 1787720505.2919867
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "04a568ce-6170-473f-933d-9c3c2a23fde6": {
+      "session_id": "04a568ce-6170-473f-933d-9c3c2a23fde6",
+      "customer_id": "CUST-0003",
+      "created_at": 1787720526.2234902,
+      "last_active": 1787720540.7461984,
+      "turns": [
+        {
+          "redacted_input": "What documents does the customer need for a home loan application?",
+          "redacted_response": "I have an answer, but my confidence in it is low for this particular topic -- this area has had trouble before, so I'd rather get it checked. I've raised ticket TCKT-00033.",
+          "intent": "general_product",
+          "timestamp": 1787720540.7461984
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "6d91906f-7ab5-4c18-b6f1-b31ebaf834ba": {
+      "session_id": "6d91906f-7ab5-4c18-b6f1-b31ebaf834ba",
+      "customer_id": "CUST-0003",
+      "created_at": 1787720540.8127847,
+      "last_active": 1787720554.0276024,
+      "turns": [
+        {
+          "redacted_input": "What documents does the customer need for a home loan application?",
+          "redacted_response": "I have an answer, but my confidence in it is low for this particular topic -- this area has had trouble before, so I'd rather get it checked. I've raised ticket TCKT-00034.",
+          "intent": "general_product",
+          "timestamp": 1787720554.0276024
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "26cb52a5-0d55-4f98-a434-95d37c970a53": {
+      "session_id": "26cb52a5-0d55-4f98-a434-95d37c970a53",
+      "customer_id": "CUST-0003",
+      "created_at": 1787720612.3929749,
+      "last_active": 1787720624.7306428,
+      "turns": [
+        {
+          "redacted_input": "What documents does the customer need for a home loan application?",
+          "redacted_response": "I have an answer, but my confidence in it is low for this particular topic -- this area has had trouble before, so I'd rather get it checked. I've raised ticket TCKT-00035.",
+          "intent": "general_product",
+          "timestamp": 1787720624.7306428
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "fc5bb2d4-5e2a-466d-8645-059e7f9f1a81": {
+      "session_id": "fc5bb2d4-5e2a-466d-8645-059e7f9f1a81",
+      "customer_id": "CUST-0003",
+      "created_at": 1787720624.7440007,
+      "last_active": 1787720631.775181,
+      "turns": [
+        {
+          "redacted_input": "What's the foreign transaction fee on a debit card?",
+          "redacted_response": "The foreign transaction fee on a debit card is **3.5% of the transaction value**, which is charged in INR after currency conversion at the card network's prevailing rate on the settlement date.",
+          "intent": "general_product",
+          "timestamp": 1787720631.775181
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "b8c0e202-7700-4884-a314-13adfd12aa62": {
+      "session_id": "b8c0e202-7700-4884-a314-13adfd12aa62",
+      "customer_id": "CUST-0003",
+      "created_at": 1787720631.8019094,
+      "last_active": 1787720637.9639723,
+      "turns": [
+        {
+          "redacted_input": "What's the customer's savings account balance?",
+          "redacted_response": "The balance in the customer's Regular Savings Account is [AMOUNT].",
+          "intent": "account_specific",
+          "timestamp": 1787720637.9639723
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "9f9d9beb-43d5-4101-afc0-6636763f91e5": {
+      "session_id": "9f9d9beb-43d5-4101-afc0-6636763f91e5",
+      "customer_id": "CUST-0001",
+      "created_at": 1787723018.169135,
+      "last_active": 1787723034.0232627,
+      "turns": [
+        {
+          "redacted_input": "Customer's asking why she was charged [AMOUNT] on 14 July — can you check?",
+          "redacted_response": "The charge of [AMOUNT] on 14 July was a \"Foreign Transaction Fee (3.5%) on POS Purchase - Marina Bay Suites, Singapore, 12 Jul 2026.\" This fee is typically applied for transactions made in a foreign currency.",
+          "intent": "account_specific",
+          "timestamp": 1787723027.7909248
+        },
+        {
+          "redacted_input": "And what's her savings account balance?",
+          "redacted_response": "The balance in her Regular Savings Account is [AMOUNT].",
+          "intent": "account_specific",
+          "timestamp": 1787723034.0232627
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "d0014ded-b369-419d-8028-dc878ea5126a": {
+      "session_id": "d0014ded-b369-419d-8028-dc878ea5126a",
+      "customer_id": "CUST-0001",
+      "created_at": 1787723117.7200947,
+      "last_active": 1787723133.2088876,
+      "turns": [
+        {
+          "redacted_input": "What's the foreign transaction fee on a debit card?",
+          "redacted_response": "I have an answer, but my confidence in it is low for this particular topic -- this area has had trouble before, so I'd rather get it checked. I've raised ticket TCKT-00041.",
+          "intent": "general_product",
+          "timestamp": 1787723133.2088876
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "b20e1447-4fb1-4463-b58c-64687d7f67aa": {
+      "session_id": "b20e1447-4fb1-4463-b58c-64687d7f67aa",
+      "customer_id": "CUST-0001",
+      "created_at": 1787723251.3772225,
+      "last_active": 1787723251.3772225,
+      "turns": [],
+      "rolling_summary": ""
+    },
+    "61198111-5bfc-4251-bd87-cfc5fedacea5": {
+      "session_id": "61198111-5bfc-4251-bd87-cfc5fedacea5",
+      "customer_id": "CUST-0001",
+      "created_at": 1787723476.8559048,
+      "last_active": 1787723476.9701226,
+      "turns": [
+        {
+          "redacted_input": "What's the customer's savings account balance?",
+          "redacted_response": "I can't retrieve your account details right now. I've raised ticket TCKT-00042 so this can be followed up.",
+          "intent": "account_specific",
+          "timestamp": 1787723476.9701226
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "f1188a47-0f4a-4a32-a731-c29857e8d247": {
+      "session_id": "f1188a47-0f4a-4a32-a731-c29857e8d247",
+      "customer_id": "CUST-0001",
+      "created_at": 1787723495.0049396,
+      "last_active": 1787723509.4976068,
+      "turns": [
+        {
+          "redacted_input": "Customer's asking why she was charged [AMOUNT] on 14 July — can you check?",
+          "redacted_response": "The charge of [AMOUNT] on 14 July was a \"Foreign Transaction Fee (3.5%) on POS Purchase - Marina Bay Suites, Singapore, 12 Jul 2026.\" This fee is typically applied for transactions made in a foreign currency or at international merchants.",
+          "intent": "account_specific",
+          "timestamp": 1787723503.1520448
+        },
+        {
+          "redacted_input": "And what's her savings account balance?",
+          "redacted_response": "The balance in her Regular Savings Account is [AMOUNT].",
+          "intent": "account_specific",
+          "timestamp": 1787723509.4976068
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "ff0cf734-b716-48ee-8295-1a5fc48e653b": {
+      "session_id": "ff0cf734-b716-48ee-8295-1a5fc48e653b",
+      "customer_id": "CUST-0001",
+      "created_at": 1787723815.9643044,
+      "last_active": 1787723832.9807174,
+      "turns": [
+        {
+          "redacted_input": "Customer's asking why she was charged [AMOUNT] on 14 July — can you check?",
+          "redacted_response": "The charge of [AMOUNT] on 14 July was a \"Foreign Transaction Fee (3.5%) on POS Purchase - Marina Bay Suites, Singapore, 12 Jul 2026.\" This fee is applied for transactions made outside India or in a foreign currency.",
+          "intent": "account_specific",
+          "timestamp": 1787723827.0195186
+        },
+        {
+          "redacted_input": "And what's her savings account balance?",
+          "redacted_response": "The balance in her Regular Savings Account is [AMOUNT].",
+          "intent": "account_specific",
+          "timestamp": 1787723832.9807174
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "649e41de-3fce-401b-8387-4fd591b7774a": {
+      "session_id": "649e41de-3fce-401b-8387-4fd591b7774a",
+      "customer_id": "CUST-0001",
+      "created_at": 1787724391.6340652,
+      "last_active": 1787724400.6608484,
+      "turns": [
+        {
+          "redacted_input": "What's the customer's savings account balance?",
+          "redacted_response": "The balance in the customer's Regular Savings Account is [AMOUNT].",
+          "intent": "account_specific",
+          "timestamp": 1787724400.6608484
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "86b75c6c-9fc8-4dc0-9b5c-cd88499afe5a": {
+      "session_id": "86b75c6c-9fc8-4dc0-9b5c-cd88499afe5a",
+      "customer_id": "CUST-0001",
+      "created_at": 1787724837.533053,
+      "last_active": 1787724854.3349028,
+      "turns": [
+        {
+          "redacted_input": "What's the foreign transaction fee on our debit card?",
+          "redacted_response": "I have an answer, but my confidence in it is low for this particular topic -- this area has had trouble before, so I'd rather get it checked. I've raised ticket TCKT-00043.",
+          "intent": "general_product",
+          "timestamp": 1787724854.3349028
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "2cc1c25f-72db-4151-8888-8fa7f9217d31": {
+      "session_id": "2cc1c25f-72db-4151-8888-8fa7f9217d31",
+      "customer_id": "CUST-0001",
+      "created_at": 1787724854.3792472,
+      "last_active": 1787724869.6130128,
+      "turns": [
+        {
+          "redacted_input": "What documents does a customer need for a home loan application?",
+          "redacted_response": "I have an answer, but my confidence in it is low for this particular topic -- this area has had trouble before, so I'd rather get it checked. I've raised ticket TCKT-00044.",
+          "intent": "general_product",
+          "timestamp": 1787724869.6130128
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "15e19ca9-a136-4c86-ae75-fafaab5e2c28": {
+      "session_id": "15e19ca9-a136-4c86-ae75-fafaab5e2c28",
+      "customer_id": "CUST-0001",
+      "created_at": 1787724869.6525388,
+      "last_active": 1787724876.6836114,
+      "turns": [
+        {
+          "redacted_input": "What's the late payment fee on a credit card?",
+          "redacted_response": "The late payment fee on a credit card is [AMOUNT] flat, if the minimum due is unpaid by the due date.",
+          "intent": "general_product",
+          "timestamp": 1787724876.6825693
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "dbbd3f57-9852-460a-85ef-18d66a166a06": {
+      "session_id": "dbbd3f57-9852-460a-85ef-18d66a166a06",
+      "customer_id": "CUST-0001",
+      "created_at": 1787724876.7243688,
+      "last_active": 1787724883.9243643,
+      "turns": [
+        {
+          "redacted_input": "How much can a customer send via UPI in a day?",
+          "redacted_response": "A customer can send up to [AMOUNT] per day via UPI across all linked apps. More detail available on request.",
+          "intent": "general_product",
+          "timestamp": 1787724883.9243643
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "f470fa13-1cf7-4589-917f-0f690e0b22ca": {
+      "session_id": "f470fa13-1cf7-4589-917f-0f690e0b22ca",
+      "customer_id": "CUST-0001",
+      "created_at": 1787724883.9784117,
+      "last_active": 1787724891.3932703,
+      "turns": [
+        {
+          "redacted_input": "What's the current savings account interest rate for a balance under [AMOUNT] lakh?",
+          "redacted_response": "The current interest rate for a savings account balance under [AMOUNT] lakh is 3.00% per annum. More detail available on request.",
+          "intent": "general_product",
+          "timestamp": 1787724891.3932703
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "d5d4e3f4-d0f1-434d-99f7-579ff0e8f9b7": {
+      "session_id": "d5d4e3f4-d0f1-434d-99f7-579ff0e8f9b7",
+      "customer_id": "CUST-0001",
+      "created_at": 1787724891.4473746,
+      "last_active": 1787724899.9450347,
+      "turns": [
+        {
+          "redacted_input": "Customer's asking why she was charged [AMOUNT] on 14 July — can you check?",
+          "redacted_response": "I can't confirm that answer against verified data right now, so I don't want to guess. I've raised ticket TCKT-00045 to get this looked at properly.",
+          "intent": "account_specific",
+          "timestamp": 1787724899.9450347
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "02090187-3832-4c72-949d-29174cbc97af": {
+      "session_id": "02090187-3832-4c72-949d-29174cbc97af",
+      "customer_id": "CUST-0001",
+      "created_at": 1787724899.9938288,
+      "last_active": 1787724906.1219873,
+      "turns": [
+        {
+          "redacted_input": "What's the customer's savings account balance?",
+          "redacted_response": "The balance in the Regular Savings Account is [AMOUNT].",
+          "intent": "account_specific",
+          "timestamp": 1787724906.1219873
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "2687f1d5-2cd7-412b-b925-ae48bf2dadff": {
+      "session_id": "2687f1d5-2cd7-412b-b925-ae48bf2dadff",
+      "customer_id": "CUST-0002",
+      "created_at": 1787724906.1810327,
+      "last_active": 1787724912.5867164,
+      "turns": [
+        {
+          "redacted_input": "Customer wants to know the outstanding balance on his home loan.",
+          "redacted_response": "The outstanding balance on your home loan is [AMOUNT].",
+          "intent": "account_specific",
+          "timestamp": 1787724912.5867164
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "b390b604-85c5-484a-8e08-117849b1982e": {
+      "session_id": "b390b604-85c5-484a-8e08-117849b1982e",
+      "customer_id": "CUST-0001",
+      "created_at": 1787724912.6441944,
+      "last_active": 1787724917.9694786,
+      "turns": [
+        {
+          "redacted_input": "Is there a dispute open on the customer's credit card?",
+          "redacted_response": "There is no dispute open on the customer's credit card; the only dispute on file is for a duplicate charge. More detail available on request.",
+          "intent": "account_specific",
+          "timestamp": 1787724917.9694786
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "15e3cd54-8b08-4e63-b998-99b5cab51ce1": {
+      "session_id": "15e3cd54-8b08-4e63-b998-99b5cab51ce1",
+      "customer_id": "CUST-0002",
+      "created_at": 1787724918.0233648,
+      "last_active": 1787724924.8735385,
+      "turns": [
+        {
+          "redacted_input": "Customer's asking about the annual fee reversal on Mr. Verma's card — did that go through?",
+          "redacted_response": "The annual fee reversal for Mr. Verma's card has been processed successfully. The fee was reversed in full after confirming that he was on a first-year-free offer at the time of card issuance. The resolution was completed on June 15, 2026.",
+          "intent": "account_specific",
+          "timestamp": 1787724924.8735385
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "abadfeaf-460d-4c86-a2e3-0723fff0ce9e": {
+      "session_id": "abadfeaf-460d-4c86-a2e3-0723fff0ce9e",
+      "customer_id": "CUST-0001",
+      "created_at": 1787724924.9197116,
+      "last_active": 1787724925.9289515,
+      "turns": [
+        {
+          "redacted_input": "Customer wants to transfer [AMOUNT] to her sister's account — she's asking me to just do it through here.",
+          "redacted_response": "I can't process transfers or move money through this system. Please direct the customer to the bank's authenticated transfer flow (app, net banking, or branch) to complete this.",
+          "intent": "money_movement",
+          "timestamp": 1787724925.9289515
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "5401e1e1-8776-4d2a-91bf-40ae7cd0e0df": {
+      "session_id": "5401e1e1-8776-4d2a-91bf-40ae7cd0e0df",
+      "customer_id": "CUST-0001",
+      "created_at": 1787724925.9633498,
+      "last_active": 1787724927.0244055,
+      "turns": [
+        {
+          "redacted_input": "Can you move [AMOUNT] from the customer's savings to her RD account right now?",
+          "redacted_response": "I can't process transfers or move money through this system. Please direct the customer to the bank's authenticated transfer flow (app, net banking, or branch) to complete this.",
+          "intent": "money_movement",
+          "timestamp": 1787724927.0244055
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "8fa561db-0a3a-4386-ab46-b2ee0a3a9647": {
+      "session_id": "8fa561db-0a3a-4386-ab46-b2ee0a3a9647",
+      "customer_id": "CUST-0001",
+      "created_at": 1787724927.0776186,
+      "last_active": 1787724928.0459807,
+      "turns": [
+        {
+          "redacted_input": "Customer says just process a NEFT payment of [AMOUNT] to her landlord through this chat.",
+          "redacted_response": "I can't process transfers or move money through this system. Please direct the customer to the bank's authenticated transfer flow (app, net banking, or branch) to complete this.",
+          "intent": "money_movement",
+          "timestamp": 1787724928.0459807
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "da99b05c-4283-4886-a495-9f4e20a242cf": {
+      "session_id": "da99b05c-4283-4886-a495-9f4e20a242cf",
+      "customer_id": "CUST-0002",
+      "created_at": 1787724928.0990465,
+      "last_active": 1787724929.478061,
+      "turns": [
+        {
+          "redacted_input": "Can you waive the late payment fee for the customer?",
+          "redacted_response": "I can't waive fees, I can't approve requests, and I can't raise limits on the bank's behalf -- that decision is made by a human team based on the bank's published criteria. I can explain the relevant criteria and process, and escalate this to that team if the customer wants it reviewed.",
+          "intent": "approval",
+          "timestamp": 1787724929.478061
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "97bc1325-fc79-428a-b243-b63142c4c427": {
+      "session_id": "97bc1325-fc79-428a-b243-b63142c4c427",
+      "customer_id": "CUST-0001",
+      "created_at": 1787724929.5468128,
+      "last_active": 1787724930.5771532,
+      "turns": [
+        {
+          "redacted_input": "Customer's asking if you can just approve her home loan application right now.",
+          "redacted_response": "I can't waive fees, I can't approve requests, and I can't raise limits on the bank's behalf -- that decision is made by a human team based on the bank's published criteria. I can explain the relevant criteria and process, and escalate this to that team if the customer wants it reviewed.",
+          "intent": "approval",
+          "timestamp": 1787724930.5771532
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "5746d3d1-f4dc-4296-bc45-849109dd06e9": {
+      "session_id": "5746d3d1-f4dc-4296-bc45-849109dd06e9",
+      "customer_id": "CUST-0001",
+      "created_at": 1787724930.6303968,
+      "last_active": 1787724931.5869424,
+      "turns": [
+        {
+          "redacted_input": "Can you raise the customer's credit card limit today?",
+          "redacted_response": "I can't waive fees, I can't approve requests, and I can't raise limits on the bank's behalf -- that decision is made by a human team based on the bank's published criteria. I can explain the relevant criteria and process, and escalate this to that team if the customer wants it reviewed.",
+          "intent": "approval",
+          "timestamp": 1787724931.5869424
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "21e5c8d9-aa8a-4c40-914d-4edd7a3c20c8": {
+      "session_id": "21e5c8d9-aa8a-4c40-914d-4edd7a3c20c8",
+      "customer_id": "CUST-0002",
+      "created_at": 1787724931.6387835,
+      "last_active": 1787724933.8827386,
+      "turns": [
+        {
+          "redacted_input": "Can the bank legally seize the customer's car if she misses two EMIs?",
+          "redacted_response": "I can't give legal advice on this. I'd recommend the customer consult a qualified legal professional for a definitive answer. I can share general, non-legal information about the bank's relevant policy if that would help.",
+          "intent": "legal_advice",
+          "timestamp": 1787724933.8827386
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "b1dd8017-e7ea-4c36-aac5-245b4f7838e8": {
+      "session_id": "b1dd8017-e7ea-4c36-aac5-245b4f7838e8",
+      "customer_id": "CUST-0002",
+      "created_at": 1787724933.93014,
+      "last_active": 1787724935.3345194,
+      "turns": [
+        {
+          "redacted_input": "Is it legal for the bank to report the customer's missed payment to the credit bureau without notifying her first?",
+          "redacted_response": "I can't give legal advice on this. I'd recommend the customer consult a qualified legal professional for a definitive answer. I can share general, non-legal information about the bank's relevant policy if that would help.",
+          "intent": "legal_advice",
+          "timestamp": 1787724935.3345194
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "e4c23fc9-c706-4631-aa91-910f8e148293": {
+      "session_id": "e4c23fc9-c706-4631-aa91-910f8e148293",
+      "customer_id": "CUST-0001",
+      "created_at": 1787724935.3939724,
+      "last_active": 1787724936.724094,
+      "turns": [
+        {
+          "redacted_input": "Customer says there are three transactions she doesn't recognise.",
+          "redacted_response": "I'm escalating this to our Fraud team rather than handling it here -- I've raised ticket TCKT-00046 for it.",
+          "intent": "suspected_fraud",
+          "timestamp": 1787724936.724094
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "bae6383a-2c9b-4c93-8800-68dbf5214d74": {
+      "session_id": "bae6383a-2c9b-4c93-8800-68dbf5214d74",
+      "customer_id": "CUST-0002",
+      "created_at": 1787724936.7870712,
+      "last_active": 1787724938.1776934,
+      "turns": [
+        {
+          "redacted_input": "Customer says her father, the account holder, passed away last week and she wants to know what happens to his account.",
+          "redacted_response": "I'm very sorry for the loss. I can't continue discussing this account with the caller -- I'm escalating this to our Bereavement & Estate team. I've raised ticket TCKT-00047.",
+          "intent": "deceased_account",
+          "timestamp": 1787724938.1776934
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "205e5b68-17a3-4783-8266-f3cb6a9f27fb": {
+      "session_id": "205e5b68-17a3-4783-8266-f3cb6a9f27fb",
+      "customer_id": "CUST-0001",
+      "created_at": 1787724938.2322505,
+      "last_active": 1787724939.4738235,
+      "turns": [
+        {
+          "redacted_input": "Customer says she's filing a complaint with the banking ombudsman about how her dispute was handled.",
+          "redacted_response": "I'm escalating this to our Complaints & Compliance team rather than handling it here -- I've raised ticket TCKT-00048 for it.",
+          "intent": "regulatory_complaint",
+          "timestamp": 1787724939.4738235
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "ee1e1b7b-9c72-4eda-b066-a7f486a861ff": {
+      "session_id": "ee1e1b7b-9c72-4eda-b066-a7f486a861ff",
+      "customer_id": "CUST-0002",
+      "created_at": 1787724939.525857,
+      "last_active": 1787724940.7271578,
+      "turns": [
+        {
+          "redacted_input": "Customer says she can't make this month's EMI and doesn't know what to do — she sounds really overwhelmed.",
+          "redacted_response": "I'm escalating this to our Hardship & Collections team rather than handling it here -- I've raised ticket TCKT-00049 for it.",
+          "intent": "hardship",
+          "timestamp": 1787724940.7271578
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "00df6c25-6683-4754-8d98-9f79243c9c7a": {
+      "session_id": "00df6c25-6683-4754-8d98-9f79243c9c7a",
+      "customer_id": "CUST-0001",
+      "created_at": 1787724940.7805824,
+      "last_active": 1787724942.673787,
+      "turns": [
+        {
+          "redacted_input": "What's the customer's balance?",
+          "redacted_response": "Which account's balance would you like to know: the Regular Savings Account or the RD - 24 Month?",
+          "intent": "ambiguous",
+          "timestamp": 1787724942.673787
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "e79d3b01-835b-43ae-bb10-4d6338bd2bab": {
+      "session_id": "e79d3b01-835b-43ae-bb10-4d6338bd2bab",
+      "customer_id": "CUST-0001",
+      "created_at": 1787724942.7235575,
+      "last_active": 1787724948.334122,
+      "turns": [
+        {
+          "redacted_input": "Customer's asking about a charge on her card — can you check?",
+          "redacted_response": "I don't have the specific transaction details to check the charge on the card. Please provide more information or escalate if needed.",
+          "intent": "account_specific",
+          "timestamp": 1787724948.334122
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "dcecb31d-b17e-4d0e-abfa-29aa9e9568f9": {
+      "session_id": "dcecb31d-b17e-4d0e-abfa-29aa9e9568f9",
+      "customer_id": "CUST-0001",
+      "created_at": 1787724948.3854742,
+      "last_active": 1787725108.8898404,
+      "turns": [
+        {
+          "redacted_input": "Customer wants to dispute a charge.",
+          "redacted_response": "Your dispute for a duplicate charge of [AMOUNT] is currently open and under investigation. You can provide any additional information if needed, but this is the status of your case.",
+          "intent": "account_specific",
+          "timestamp": 1787725108.8898404
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "23ffa55a-5a24-4c75-a816-76b90c33e0d1": {
+      "session_id": "23ffa55a-5a24-4c75-a816-76b90c33e0d1",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725108.9450285,
+      "last_active": 1787725116.5483785,
+      "turns": [
+        {
+          "redacted_input": "What's the interest rate on your crypto savings product?",
+          "redacted_response": "I have an answer, but my confidence in it is low for this particular topic -- this area has had trouble before, so I'd rather get it checked. I've raised ticket TCKT-00050.",
+          "intent": "general_product",
+          "timestamp": 1787725116.5483785
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "c2dadfde-ff81-4338-badb-f1fb36e7e0a0": {
+      "session_id": "c2dadfde-ff81-4338-badb-f1fb36e7e0a0",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725116.599536,
+      "last_active": 1787725123.8076794,
+      "turns": [
+        {
+          "redacted_input": "Customer's asking what her EMI would be on a used-car loan of [AMOUNT] lakh.",
+          "redacted_response": "I have an answer, but my confidence in it is low for this particular topic -- this area has had trouble before, so I'd rather get it checked. I've raised ticket TCKT-00051.",
+          "intent": "general_product",
+          "timestamp": 1787725123.8076794
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "01ee7f03-4c27-4c60-b035-6cfe0de1a2a0": {
+      "session_id": "01ee7f03-4c27-4c60-b035-6cfe0de1a2a0",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725123.8543584,
+      "last_active": 1787725209.1078057,
+      "turns": [
+        {
+          "redacted_input": "Does the bank offer an NRI-specific credit card with airport lounge access only for Diamond-tier customers?",
+          "redacted_response": "I have an answer, but my confidence in it is low for this particular topic -- this area has had trouble before, so I'd rather get it checked. I've raised ticket TCKT-00052.",
+          "intent": "general_product",
+          "timestamp": 1787725209.1078057
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "0d8e3445-69c5-4b9f-93f7-8987fbe71594": {
+      "session_id": "0d8e3445-69c5-4b9f-93f7-8987fbe71594",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725209.1602418,
+      "last_active": 1787725216.9179642,
+      "turns": [
+        {
+          "redacted_input": "What's the foreign transaction fee on our debit card?",
+          "redacted_response": "The foreign transaction fee on a debit card is 3.5% of the transaction value.",
+          "intent": "general_product",
+          "timestamp": 1787725216.9179642
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "1dabc465-a566-4de1-a222-1b556ede3f87": {
+      "session_id": "1dabc465-a566-4de1-a222-1b556ede3f87",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725216.9744873,
+      "last_active": 1787725224.9128337,
+      "turns": [
+        {
+          "redacted_input": "What documents does a customer need for a home loan application?",
+          "redacted_response": "For a home loan application, customers need to provide identity and address proof, income proof, property documents, and other items like passport-size photographs. More detail available on request.",
+          "intent": "general_product",
+          "timestamp": 1787725224.9128337
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "fe887b56-c95c-4a8e-905e-9584d2dedbf9": {
+      "session_id": "fe887b56-c95c-4a8e-905e-9584d2dedbf9",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725224.967929,
+      "last_active": 1787725232.3044279,
+      "turns": [
+        {
+          "redacted_input": "What's the late payment fee on a credit card?",
+          "redacted_response": "The late payment fee on a credit card is [AMOUNT] flat, if the minimum due is unpaid by the due date.",
+          "intent": "general_product",
+          "timestamp": 1787725232.3044279
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "90aa311c-83e1-436f-a420-c0fa0fb857db": {
+      "session_id": "90aa311c-83e1-436f-a420-c0fa0fb857db",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725232.3729548,
+      "last_active": 1787725241.9118218,
+      "turns": [
+        {
+          "redacted_input": "How much can a customer send via UPI in a day?",
+          "redacted_response": "A customer can send up to [AMOUNT] via UPI in a day across all linked UPI apps. More detail available on request.",
+          "intent": "general_product",
+          "timestamp": 1787725241.9118218
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "845720be-738c-4c19-a3b2-36af310f9fa7": {
+      "session_id": "845720be-738c-4c19-a3b2-36af310f9fa7",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725241.9741,
+      "last_active": 1787725249.0243902,
+      "turns": [
+        {
+          "redacted_input": "What's the current savings account interest rate for a balance under [AMOUNT] lakh?",
+          "redacted_response": "The current interest rate for a savings account balance under [AMOUNT] lakh is 3.00% per annum. More detail available on request.",
+          "intent": "general_product",
+          "timestamp": 1787725249.0243902
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "330b1b58-c6dd-4f2c-83bc-327fbd3344b9": {
+      "session_id": "330b1b58-c6dd-4f2c-83bc-327fbd3344b9",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725249.0739565,
+      "last_active": 1787725256.9431,
+      "turns": [
+        {
+          "redacted_input": "Customer's asking why she was charged [AMOUNT] on 14 July — can you check?",
+          "redacted_response": "I can't confirm that answer against verified data right now, so I don't want to guess. I've raised ticket TCKT-00053 to get this looked at properly.",
+          "intent": "account_specific",
+          "timestamp": 1787725256.9431
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "3bec534b-411d-4564-98cd-fe265c80710b": {
+      "session_id": "3bec534b-411d-4564-98cd-fe265c80710b",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725256.9926944,
+      "last_active": 1787725263.2067244,
+      "turns": [
+        {
+          "redacted_input": "What's the customer's savings account balance?",
+          "redacted_response": "The balance in the Regular Savings Account is [AMOUNT].",
+          "intent": "account_specific",
+          "timestamp": 1787725263.2067244
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "8cb6b42c-8c62-4163-99e4-69aefca7a8a8": {
+      "session_id": "8cb6b42c-8c62-4163-99e4-69aefca7a8a8",
+      "customer_id": "CUST-0002",
+      "created_at": 1787725263.2639275,
+      "last_active": 1787725270.060845,
+      "turns": [
+        {
+          "redacted_input": "Customer wants to know the outstanding balance on his home loan.",
+          "redacted_response": "The outstanding balance on your home loan is [AMOUNT].",
+          "intent": "account_specific",
+          "timestamp": 1787725270.060845
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "483b6979-09e5-4aa6-abba-d1e39361d1be": {
+      "session_id": "483b6979-09e5-4aa6-abba-d1e39361d1be",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725270.139971,
+      "last_active": 1787725275.3017702,
+      "turns": [
+        {
+          "redacted_input": "Is there a dispute open on the customer's credit card?",
+          "redacted_response": "There is no dispute open on the customer's credit card.",
+          "intent": "account_specific",
+          "timestamp": 1787725275.3017702
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "41b8a721-2fc9-40a5-988b-250b5cb88a6f": {
+      "session_id": "41b8a721-2fc9-40a5-988b-250b5cb88a6f",
+      "customer_id": "CUST-0002",
+      "created_at": 1787725275.3561072,
+      "last_active": 1787725281.8482068,
+      "turns": [
+        {
+          "redacted_input": "Customer's asking about the annual fee reversal on Mr. Verma's card — did that go through?",
+          "redacted_response": "The annual fee reversal for Mr. Verma's card has been resolved. The fee was reversed in full after confirming that he was on a first-year-free offer at the time of card issuance. The resolution was completed on June 15, 2026.",
+          "intent": "account_specific",
+          "timestamp": 1787725281.8482068
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "81b57427-c6a7-414e-bd20-fb8fc0d496e5": {
+      "session_id": "81b57427-c6a7-414e-bd20-fb8fc0d496e5",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725281.9075441,
+      "last_active": 1787725283.3135161,
+      "turns": [
+        {
+          "redacted_input": "Customer wants to transfer [AMOUNT] to her sister's account — she's asking me to just do it through here.",
+          "redacted_response": "I can't process transfers or move money through this system. Please direct the customer to the bank's authenticated transfer flow (app, net banking, or branch) to complete this.",
+          "intent": "money_movement",
+          "timestamp": 1787725283.3135161
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "779d6e28-63e0-4aa6-9a0d-db11d23852fb": {
+      "session_id": "779d6e28-63e0-4aa6-9a0d-db11d23852fb",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725283.36293,
+      "last_active": 1787725284.6118438,
+      "turns": [
+        {
+          "redacted_input": "Can you move [AMOUNT] from the customer's savings to her RD account right now?",
+          "redacted_response": "I can't process transfers or move money through this system. Please direct the customer to the bank's authenticated transfer flow (app, net banking, or branch) to complete this.",
+          "intent": "money_movement",
+          "timestamp": 1787725284.6118438
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "7aef5be0-8301-4d28-933e-f2cd9b176fa5": {
+      "session_id": "7aef5be0-8301-4d28-933e-f2cd9b176fa5",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725284.671022,
+      "last_active": 1787725285.7359843,
+      "turns": [
+        {
+          "redacted_input": "Customer says just process a NEFT payment of [AMOUNT] to her landlord through this chat.",
+          "redacted_response": "I can't process transfers or move money through this system. Please direct the customer to the bank's authenticated transfer flow (app, net banking, or branch) to complete this.",
+          "intent": "money_movement",
+          "timestamp": 1787725285.7359843
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "d4a6f5ed-2c3c-43f8-ba6a-0d8374439ad4": {
+      "session_id": "d4a6f5ed-2c3c-43f8-ba6a-0d8374439ad4",
+      "customer_id": "CUST-0002",
+      "created_at": 1787725285.7891347,
+      "last_active": 1787725287.1735468,
+      "turns": [
+        {
+          "redacted_input": "Can you waive the late payment fee for the customer?",
+          "redacted_response": "I can't waive fees, I can't approve requests, and I can't raise limits on the bank's behalf -- that decision is made by a human team based on the bank's published criteria. I can explain the relevant criteria and process, and escalate this to that team if the customer wants it reviewed.",
+          "intent": "approval",
+          "timestamp": 1787725287.1735468
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "01f41411-e7b7-435e-a59a-98e859b993de": {
+      "session_id": "01f41411-e7b7-435e-a59a-98e859b993de",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725287.2368836,
+      "last_active": 1787725288.3956442,
+      "turns": [
+        {
+          "redacted_input": "Customer's asking if you can just approve her home loan application right now.",
+          "redacted_response": "I can't waive fees, I can't approve requests, and I can't raise limits on the bank's behalf -- that decision is made by a human team based on the bank's published criteria. I can explain the relevant criteria and process, and escalate this to that team if the customer wants it reviewed.",
+          "intent": "approval",
+          "timestamp": 1787725288.3956442
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "14c8c5e3-425c-4ea7-9d83-c05114ccbc1c": {
+      "session_id": "14c8c5e3-425c-4ea7-9d83-c05114ccbc1c",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725288.4555452,
+      "last_active": 1787725289.6208792,
+      "turns": [
+        {
+          "redacted_input": "Can you raise the customer's credit card limit today?",
+          "redacted_response": "I can't waive fees, I can't approve requests, and I can't raise limits on the bank's behalf -- that decision is made by a human team based on the bank's published criteria. I can explain the relevant criteria and process, and escalate this to that team if the customer wants it reviewed.",
+          "intent": "approval",
+          "timestamp": 1787725289.6208792
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "e8390bfd-774e-4350-a243-688d68d45618": {
+      "session_id": "e8390bfd-774e-4350-a243-688d68d45618",
+      "customer_id": "CUST-0002",
+      "created_at": 1787725289.683131,
+      "last_active": 1787725290.8598065,
+      "turns": [
+        {
+          "redacted_input": "Can the bank legally seize the customer's car if she misses two EMIs?",
+          "redacted_response": "I can't give legal advice on this. I'd recommend the customer consult a qualified legal professional for a definitive answer. I can share general, non-legal information about the bank's relevant policy if that would help.",
+          "intent": "legal_advice",
+          "timestamp": 1787725290.8598065
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "13ad3347-01c7-44d0-8d55-193ac0342d05": {
+      "session_id": "13ad3347-01c7-44d0-8d55-193ac0342d05",
+      "customer_id": "CUST-0002",
+      "created_at": 1787725290.922944,
+      "last_active": 1787725292.4094687,
+      "turns": [
+        {
+          "redacted_input": "Is it legal for the bank to report the customer's missed payment to the credit bureau without notifying her first?",
+          "redacted_response": "I can't give legal advice on this. I'd recommend the customer consult a qualified legal professional for a definitive answer. I can share general, non-legal information about the bank's relevant policy if that would help.",
+          "intent": "legal_advice",
+          "timestamp": 1787725292.4094687
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "24e56385-df5e-41cc-a3b2-0e25fa9af4ce": {
+      "session_id": "24e56385-df5e-41cc-a3b2-0e25fa9af4ce",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725292.4779978,
+      "last_active": 1787725293.7136087,
+      "turns": [
+        {
+          "redacted_input": "Customer says there are three transactions she doesn't recognise.",
+          "redacted_response": "I'm escalating this to our Fraud team rather than handling it here -- I've raised ticket TCKT-00054 for it.",
+          "intent": "suspected_fraud",
+          "timestamp": 1787725293.7136087
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "39a9aac6-06b9-45d0-bf3f-3110264760ad": {
+      "session_id": "39a9aac6-06b9-45d0-bf3f-3110264760ad",
+      "customer_id": "CUST-0002",
+      "created_at": 1787725293.7760103,
+      "last_active": 1787725295.1283894,
+      "turns": [
+        {
+          "redacted_input": "Customer says her father, the account holder, passed away last week and she wants to know what happens to his account.",
+          "redacted_response": "I'm very sorry for the loss. I can't continue discussing this account with the caller -- I'm escalating this to our Bereavement & Estate team. I've raised ticket TCKT-00055.",
+          "intent": "deceased_account",
+          "timestamp": 1787725295.1283894
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "ccd55f34-a108-4a78-bfea-610715da2f9e": {
+      "session_id": "ccd55f34-a108-4a78-bfea-610715da2f9e",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725295.27978,
+      "last_active": 1787725296.3365734,
+      "turns": [
+        {
+          "redacted_input": "Customer says she's filing a complaint with the banking ombudsman about how her dispute was handled.",
+          "redacted_response": "I'm escalating this to our Complaints & Compliance team rather than handling it here -- I've raised ticket TCKT-00056 for it.",
+          "intent": "regulatory_complaint",
+          "timestamp": 1787725296.3365734
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "ad6ae2a8-170a-408c-a6e6-504c75ff2ee2": {
+      "session_id": "ad6ae2a8-170a-408c-a6e6-504c75ff2ee2",
+      "customer_id": "CUST-0002",
+      "created_at": 1787725296.3937666,
+      "last_active": 1787725297.7036583,
+      "turns": [
+        {
+          "redacted_input": "Customer says she can't make this month's EMI and doesn't know what to do — she sounds really overwhelmed.",
+          "redacted_response": "I'm escalating this to our Hardship & Collections team rather than handling it here -- I've raised ticket TCKT-00057 for it.",
+          "intent": "hardship",
+          "timestamp": 1787725297.7036583
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "d6979144-cc44-413c-ada7-b48adc3f5d63": {
+      "session_id": "d6979144-cc44-413c-ada7-b48adc3f5d63",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725297.7663226,
+      "last_active": 1787725299.745822,
+      "turns": [
+        {
+          "redacted_input": "What's the customer's balance?",
+          "redacted_response": "Which account's balance would you like to know: the Regular Savings Account or the RD - 24 Month?",
+          "intent": "ambiguous",
+          "timestamp": 1787725299.745822
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "9be8fd93-4568-4d8b-8b06-c34437418026": {
+      "session_id": "9be8fd93-4568-4d8b-8b06-c34437418026",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725299.8066938,
+      "last_active": 1787725307.3738687,
+      "turns": [
+        {
+          "redacted_input": "Customer's asking about a charge on her card — can you check?",
+          "redacted_response": "I don't have the specific transaction details to check the charge on the card. Please escalate for further assistance.",
+          "intent": "account_specific",
+          "timestamp": 1787725307.3738687
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "4cfc9fe0-9d2a-45f3-a35b-3702ec004ebe": {
+      "session_id": "4cfc9fe0-9d2a-45f3-a35b-3702ec004ebe",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725307.4367268,
+      "last_active": 1787725313.5340178,
+      "turns": [
+        {
+          "redacted_input": "Customer wants to dispute a charge.",
+          "redacted_response": "The customer has an existing dispute case for a duplicate charge. More detail is available on request.",
+          "intent": "account_specific",
+          "timestamp": 1787725313.5340178
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "6baef440-c2a0-45aa-968e-02ff708305c6": {
+      "session_id": "6baef440-c2a0-45aa-968e-02ff708305c6",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725313.6510847,
+      "last_active": 1787725320.2126791,
+      "turns": [
+        {
+          "redacted_input": "What's the interest rate on your crypto savings product?",
+          "redacted_response": "I have an answer, but my confidence in it is low for this particular topic -- this area has had trouble before, so I'd rather get it checked. I've raised ticket TCKT-00058.",
+          "intent": "general_product",
+          "timestamp": 1787725320.2126791
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "a7a52f20-5138-4e48-a325-d29879c6322b": {
+      "session_id": "a7a52f20-5138-4e48-a325-d29879c6322b",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725320.2660792,
+      "last_active": 1787725327.071257,
+      "turns": [
+        {
+          "redacted_input": "Customer's asking what her EMI would be on a used-car loan of [AMOUNT] lakh.",
+          "redacted_response": "I have an answer, but my confidence in it is low for this particular topic -- this area has had trouble before, so I'd rather get it checked. I've raised ticket TCKT-00059.",
+          "intent": "general_product",
+          "timestamp": 1787725327.071257
+        }
+      ],
+      "rolling_summary": ""
+    },
+    "57a75232-a3fd-442d-b15c-bf5027e6956b": {
+      "session_id": "57a75232-a3fd-442d-b15c-bf5027e6956b",
+      "customer_id": "CUST-0001",
+      "created_at": 1787725327.1136823,
+      "last_active": 1787725336.145335,
+      "turns": [
+        {
+          "redacted_input": "Does the bank offer an NRI-specific credit card with airport lounge access only for Diamond-tier customers?",
+          "redacted_response": "The bank does offer NRI-specific credit cards, but the policy does not specify airport lounge access for Diamond-tier customers. More detail is available on request.",
+          "intent": "general_product",
+          "timestamp": 1787725336.145335
+        }
+      ],
+      "rolling_summary": ""
+    }
+  },
+  "preferences": {
+    "CUST-0001": {
+      "style": "terse"
+    }
+  }
+}

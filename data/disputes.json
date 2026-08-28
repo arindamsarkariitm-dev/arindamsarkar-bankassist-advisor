@@ -1,0 +1,45 @@
+{
+  "_disclaimer": "Synthetic data. No real customers, accounts, or transactions. Both cases below are fictional, generated solely for the BankAssist Advisor capstone project.",
+  "disputes": [
+    {
+      "case_id": "DSP-001",
+      "customer_id": "CUST-0001",
+      "instrument_id": "CARD-2001",
+      "status": "open",
+      "category": "duplicate_charge",
+      "filed_date": "2026-08-04",
+      "related_transaction_ids": ["TXN-0084", "TXN-0085"],
+      "disputed_amount": 2450.00,
+      "currency": "INR",
+      "summary": "Customer reports Big Bazaar Supermart charged twice on the same day (03 Aug 2026, Rs.2,450 each) for what she believes was a single purchase.",
+      "current_stage": "under_investigation",
+      "sla_target_date": "2026-08-25",
+      "assigned_team": "Disputes & Chargebacks",
+      "history": [
+        {"date": "2026-08-04", "event": "Case opened, customer notified of the standard chargeback timeline"},
+        {"date": "2026-08-06", "event": "Merchant contacted for transaction confirmation"}
+      ]
+    },
+    {
+      "case_id": "DSP-002",
+      "customer_id": "CUST-0002",
+      "instrument_id": "CARD-2002",
+      "status": "resolved",
+      "category": "billing_error",
+      "filed_date": "2026-06-02",
+      "resolved_date": "2026-06-15",
+      "related_transaction_ids": ["TXN-0121", "TXN-0122"],
+      "disputed_amount": 1999.00,
+      "currency": "INR",
+      "summary": "Customer was charged the annual membership fee despite being on a first-year-free offer at card issuance.",
+      "current_stage": "resolved_refunded",
+      "resolution": "Fee reversed in full (TXN-0122) after confirming the first-year-free offer was still active on the account.",
+      "assigned_team": "Disputes & Chargebacks",
+      "history": [
+        {"date": "2026-06-02", "event": "Case opened"},
+        {"date": "2026-06-09", "event": "Offer terms confirmed with card issuance records"},
+        {"date": "2026-06-15", "event": "Fee reversed, case closed"}
+      ]
+    }
+  ]
+}
