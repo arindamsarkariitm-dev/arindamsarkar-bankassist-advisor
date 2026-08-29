@@ -13,6 +13,8 @@ import time
 
 from openai import APITimeoutError, RateLimitError
 
+from langsmith_tracing import tracing_callbacks
+
 RETRYABLE_EXCEPTIONS = (APITimeoutError, RateLimitError, TimeoutError)
 
 
@@ -27,7 +29,7 @@ def invoke_with_retry(llm, messages, max_retries: int = 1, backoff_seconds: floa
     attempt = 0
     while True:
         try:
-            return llm.invoke(messages)
+            return llm.invoke(messages, config={"callbacks": tracing_callbacks()})
         except RETRYABLE_EXCEPTIONS as e:
             if attempt >= max_retries:
                 raise LLMUnavailable(f"{type(e).__name__} after {attempt + 1} attempt(s): {e}") from e
@@ -45,7 +47,7 @@ def invoke_structured_with_resilience(llm, messages, max_retries: int = 1, backo
     last_raw_result = None
     while attempt <= max_retries:
         try:
-            raw_result = llm.invoke(messages)
+            raw_result = llm.invoke(messages, config={"callbacks": tracing_callbacks()})
         except RETRYABLE_EXCEPTIONS as e:
             if attempt >= max_retries:
                 raise LLMUnavailable(f"{type(e).__name__} after {attempt + 1} attempt(s): {e}") from e

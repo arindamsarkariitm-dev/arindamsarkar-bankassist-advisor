@@ -20,7 +20,14 @@ import streamlit as st  # noqa: E402
 import os  # noqa: E402
 
 try:
-    for _key in ("OPENAI_API_KEY", "OPENAI_MODEL_AGENT", "OPENAI_MODEL_JUDGE"):
+    for _key in (
+        "OPENAI_API_KEY",
+        "OPENAI_MODEL_AGENT",
+        "OPENAI_MODEL_JUDGE",
+        "ENABLE_SAFE_LANGSMITH_TRACING",
+        "LANGCHAIN_API_KEY",
+        "LANGCHAIN_PROJECT",
+    ):
         if _key not in os.environ and _key in st.secrets:
             os.environ[_key] = st.secrets[_key]
 except st.errors.StreamlitSecretNotFoundError:

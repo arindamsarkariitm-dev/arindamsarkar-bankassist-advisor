@@ -55,6 +55,8 @@ app.py          Streamlit demo UI
 
 See `.env.example`. `OPENAI_API_KEY` is required; `OPENAI_MODEL_AGENT` (default `gpt-4o-mini`) and `OPENAI_MODEL_JUDGE` (default `gpt-4o`, used by the Phase 9 eval harness) are overridable.
 
+**LangSmith tracing** (optional, off by default): set `ENABLE_SAFE_LANGSMITH_TRACING=true`, `LANGCHAIN_API_KEY`, and `LANGCHAIN_PROJECT` to enable it. Every trace is redacted before it leaves the process — see `Phase_8/docs/08_deployment.md` for how, and why it deliberately does *not* use the standard `LANGCHAIN_TRACING_V2` env var name.
+
 ## Known limitations
 
 See `docs/08_deployment.md` for the full assumptions/limitations writeup, and `docs/09_evaluation_report.md` for the measured evaluation results and root-cause analysis.
