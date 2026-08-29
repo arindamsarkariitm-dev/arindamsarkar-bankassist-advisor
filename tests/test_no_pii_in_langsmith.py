@@ -1,17 +1,25 @@
 """
-Safety test: proves src/langsmith_tracing.py's redaction hook actually
-strips PII from realistic LangChain run payloads, and that tracing stays
-off unless explicitly enabled. Plain script with asserts, matching this
-project's existing eval-script style (no pytest dependency) -- run directly:
+Safety test for src/langsmith_tracing.py -- a module now HARD-DISABLED
+after live testing found it unsafe (see its own docstring and
+Phase_8/docs/08_deployment.md for the full investigation). Two things are
+verified here, and they prove different, non-overlapping things:
+
+1. tracing_callbacks() always returns [] -- the actual safety guarantee in
+   force right now, regardless of the ENABLE_SAFE_LANGSMITH_TRACING env var.
+   This is the check that matters for "can this leak PII today."
+2. _redact_value() itself correctly strips PII from a realistic nested
+   payload -- proving the REDACTION LOGIC is correct in isolation. This
+   does NOT prove live LangSmith uploads are safe -- live testing found
+   they are not, for reasons this function's correctness doesn't reach
+   (see the module docstring). Kept because a future, real fix (a custom
+   callback intercepting LangChain's own message objects, rather than
+   relying on LangSmith's Client-level hide_* hooks) would still need this
+   exact redaction logic to be correct as a building block.
+
+Plain script with asserts, matching this project's existing eval-script
+style (no pytest dependency) -- run directly:
 
     python tests/test_no_pii_in_langsmith.py
-
-Does NOT make a real network call to LangSmith -- it tests the redaction
-function and the Client wiring in isolation, which is what matters for the
-"no PII leaves this process" guarantee. A real live-traffic check (does the
-LangSmith dashboard actually show redacted text) is a separate, manual
-verification step documented in Phase_8/docs/08_deployment.md, since it
-needs a real API key that only the project owner holds.
 """
 import sys
 from pathlib import Path
@@ -47,10 +55,12 @@ def contains_pii(value) -> bool:
     return False
 
 
-# 1. Tracing is off by default -- the single most important safety property:
-# if nothing is configured, zero data of any kind reaches LangSmith.
-check("tracing disabled by default (no env var set)", lt.ENABLED is False)
-check("tracing_callbacks() returns [] when disabled", lt.tracing_callbacks() == [])
+# 1. Tracing is hard-disabled -- the actual safety property in force now.
+# Deliberately does NOT assert lt.ENABLED is False: the env var may well be
+# true (e.g. left over from testing) -- that must NOT matter. The real
+# guarantee is tracing_callbacks() always returning [] regardless.
+check("tracing_callbacks() returns [] unconditionally", lt.tracing_callbacks() == [])
+check("KNOWN_UNSAFE flag is set (documents why, not just that)", lt.KNOWN_UNSAFE is True)
 
 # 2. Realistic nested LangChain-shaped payload -- messages, metadata, tool
 # calls, numeric fields -- all in one structure, like a real chat-model run.

@@ -20,7 +20,11 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 
 _AMOUNT_RE = re.compile(r"₹\s?[\d,]+(?:\.\d+)?")
-_BARE_DECIMAL_AMOUNT_RE = re.compile(r"\b\d{3,}\.\d{2}\b")
+# \d+ (not \d{2}) after the point -- a JSON-serialized float like 42115.0
+# has only one decimal digit, not the two a formatted "590.00"-style amount
+# has; the old \d{2}-only pattern silently missed bare floats in that shape
+# (found via LangSmith trace inspection, see Phase_8/docs/08_deployment.md).
+_BARE_DECIMAL_AMOUNT_RE = re.compile(r"\b\d{3,}\.\d+\b")
 _MASKED_ACCOUNT_RE = re.compile(r"\bX{4,}[\-\s]?\d{2,6}\b")
 _LONG_DIGIT_RE = re.compile(r"\b\d{8,}\b")
 _PHONE_RE = re.compile(r"\b\d{10}\b")
