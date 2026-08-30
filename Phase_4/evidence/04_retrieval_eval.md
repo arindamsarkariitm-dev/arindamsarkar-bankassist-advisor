@@ -1,5 +1,7 @@
 # Phase 4 — Retrieval Evaluation & Floor Tuning
 
+> **Addendum (Phase 9, added without rewriting the measurements below):** query #19 in the table below ("What's the late payment fee on a credit card?") shows `fee-schedule` retrieved **twice** at floor 0.35 — that double entry is the deliberately planted stale-fee bug (both the 2024/superseded and 2026/current versions cleared the floor together), later found, root-caused, and fixed in Phase 9 — see `Phase_9/docs/09_evaluation_report.md` for the full symptom → root cause → fix → before/after writeup, and `src/retriever.py`'s `_filter_superseded()`. Re-running that exact query post-fix: `fee-schedule` now appears **once**, `status=current` only — the superseded duplicate is gone from the candidate pool entirely, not just outscored. The hit@1/hit@3/MRR numbers below are left as originally measured (pre-fix) rather than restated, since they're historical evidence of the floor-tuning decision at the time it was made, not a live claim about current retrieval behaviour.
+
 20 labelled queries (2 per corpus document), real embedding calls via `text-embedding-3-small`, scored against `src/retriever.py`. Full per-query data and 3 out-of-corpus probe results are in `Phase_4/logs/04_floor_tuning.json`.
 
 ## Floor tuning (measured, not asserted)
