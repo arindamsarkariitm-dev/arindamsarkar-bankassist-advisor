@@ -46,15 +46,30 @@ Categories:
 - regulatory_complaint: customer invokes a regulator/ombudsman or a formal complaint.
 - deceased_account: the account holder has died.
 - vulnerable_or_distress: signs of vulnerability, confusion, or severe distress.
-- ambiguous: genuinely unclear which account/item is meant, or underspecified. You are told below
-  how many accounts/cards/dispute cases this customer actually has -- use that to judge ambiguity
-  for real, not generically. "What's the balance?" is ambiguous for a customer with 2+ accounts/
-  cards, but NOT ambiguous for a customer who only has one thing a "balance" could mean. Critically:
-  if the turn ALREADY names a specific account type ("savings account", "credit card", "home loan"),
-  it is account_specific even if the customer has other, different instruments too -- only classify
-  ambiguous when the turn itself doesn't narrow it down to one type. "What's the customer's savings
-  account balance?" is account_specific (she has exactly one savings account, even though she also
-  has an RD and a credit card); "What's the customer's balance?" (no type named) is ambiguous.
+- ambiguous: genuinely unclear which account/item/transaction/dispute is meant, or underspecified.
+  You are told below how many accounts/cards/dispute cases this customer actually has -- use that to
+  judge ambiguity for real, not generically. "What's the balance?" is ambiguous for a customer with
+  2+ accounts/cards, but NOT ambiguous for a customer who only has one thing a "balance" could mean.
+  Critically: if the turn ALREADY names a specific account type ("savings account", "credit card",
+  "home loan"), it is account_specific even if the customer has other, different instruments too --
+  only classify ambiguous when the turn itself doesn't narrow it down to one type. "What's the
+  customer's savings account balance?" is account_specific (she has exactly one savings account,
+  even though she also has an RD and a credit card); "What's the customer's balance?" (no type
+  named) is ambiguous.
+  This same test applies one level down, to WHICH transaction or WHICH dispute, not just which
+  account: a card or account can be uniquely identified while the specific transaction/charge/
+  dispute on it still isn't. "Can you check a charge on her card?" or "customer wants to dispute a
+  charge" with no date, amount, merchant, or case reference given is ambiguous whenever that
+  instrument could plausibly have more than one matching transaction or dispute case -- guessing
+  which one, or silently assuming it means an existing dispute case already on file, is exactly the
+  failure this category exists to prevent.
+  The turn supplying a specific amount and/or date (e.g. "why was she charged ₹590 on 14 July")
+  is enough to skip clarification, even when it doesn't ALSO name which account or card that
+  charge is on -- account_specific, not ambiguous. Finding which of the customer's instruments a
+  given amount/date belongs to is a search the agent can do with the tools it has (checking
+  transaction history per instrument); it is not something that requires asking the associate
+  first, the way genuinely not knowing the amount/date/merchant at all does. Only classify
+  ambiguous when NONE of amount, date, merchant, or an explicit case/reference id is given at all.
 - chitchat: greetings/small talk, no banking content.
 
 You may be given a note about earlier turns THIS SESSION. Use it to resolve pronouns and ellipsis

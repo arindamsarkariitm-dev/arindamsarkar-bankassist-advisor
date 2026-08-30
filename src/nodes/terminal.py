@@ -36,7 +36,7 @@ REFUSAL_MESSAGES = {
         "if the customer wants it reviewed."
     ),
     "legal_advice": (
-        "I can't give legal advice on this. I'd recommend the customer consult "
+        "I'm not able to give legal advice on this. I'd recommend the customer consult "
         "a qualified legal professional for a definitive answer. I can share general, "
         "non-legal information about the bank's relevant policy if that would help."
     ),
@@ -196,9 +196,12 @@ def clarify_node(state: dict) -> dict:
             f"between -- this customer's accounts/cards/dispute cases on file: {directory}. "
             "Also, why the classifier flagged it ambiguous: "
             f"{state.get('classify_reasoning', '')!r}. "
-            "Ask EXACTLY ONE short, specific clarifying question that would resolve it (e.g. "
-            "naming the specific account types to choose between). Do not answer anything, "
-            "do not apologise at length, just ask the one question."
+            "Ask EXACTLY ONE short, specific clarifying question that would resolve it -- if the "
+            "ambiguity is which account/card/product type, name the specific types to choose "
+            "between; if the ambiguity is which transaction, charge, or dispute case on an "
+            "otherwise-identified account/card, explicitly ask for the date and/or amount of the "
+            "transaction (the fastest way to look it up), not just 'which one' in the abstract. "
+            "Do not answer anything, do not apologise at length, just ask the one question."
         )},
         {"role": "user", "content": state["turn_input"]},
     ]
