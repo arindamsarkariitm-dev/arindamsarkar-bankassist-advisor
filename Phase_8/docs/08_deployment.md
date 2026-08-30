@@ -1,5 +1,7 @@
 # Phase 8 — Deployment Readiness
 
+**Track A / framework compliance note:** everything below is deployment of the LangChain + LangGraph system built throughout this project — LangSmith (§ below) is a separate, optional observability product, unrelated to the Track A framework requirement itself, so its outcome has no bearing on framework compliance. Full framework-choice justification (LangChain + LangGraph over CrewAI/Flowise, and LangGraph over a plain `AgentExecutor`): `Phase_9/docs/09_engineering_justification.md` §1.
+
 ## Architecture recap
 
 `src/graph.py` compiles a single LangGraph `StateGraph`. `src/api.py` (FastAPI: `POST /chat`, `POST /feedback`, `GET /health`) and `app.py` (Streamlit) are both thin callers of `graph.run_turn()` / `graph.give_feedback()` — all actual logic lives in the graph itself, so the two front ends can never drift out of sync with each other's behaviour.
