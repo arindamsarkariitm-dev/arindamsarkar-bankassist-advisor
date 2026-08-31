@@ -99,6 +99,14 @@ After:  "Yes, there is an open dispute on the credit card regarding a
 
 Minor: the refusal correctly declined every time, but said *"I can't give legal advice"* rather than *"I'm not able to give legal advice"* — a required exact-phrase check, not a substance issue. Wording aligned.
 
+### 3.5 A related investigation, same root-cause discipline: LangSmith tracing
+
+Not a bug in this system's own code, but the same symptom → trace → root cause → decision rigor applied to a third-party integration attempt, so it belongs in this report rather than only in the deployment doc. Built exactly as `capstone_build_plan.md` §0.3 specified — a redacting `Client(hide_inputs=, hide_outputs=, hide_metadata=)` wrapper around LangSmith tracing, reusing the same PII layer as the structured logger. Live-tested against real traffic three separate times (default batched tracing, forced synchronous tracing, and a fresh cross-browser re-login to rule out caching): the associate's own question redacted correctly every time, but the AI's generated answer text and tool-derived account data reached LangSmith's servers **unredacted**, despite a local diagnostic confirming the redaction function itself was invoked correctly on that exact content mid-run. Root cause narrowed to somewhere inside `langsmith`/`langchain_core`'s handling of a composite `RunnableSequence` run's output, not fully isolated.
+
+**Decision, made the same way every other safety call in this project was made:** real (synthetic) customer data reached a third-party service unredacted — a confirmed finding, not a hypothetical risk — so the capability was hard-disabled (`tracing_callbacks()` in `src/langsmith_tracing.py` now returns `[]` unconditionally, regardless of the env flag) rather than shipped "off by default" with a flag that looks safe to flip but isn't. A genuinely useful, unrelated bug was also found and fixed along the way: `src/redaction.py`'s bare-decimal-amount regex required exactly 2 digits after the decimal point, silently missing JSON-serialized floats with fewer (e.g. `42115.0`) — fixed to accept 1+ digits, which also hardens the main structured logger, not just this investigation.
+
+Full write-up, live-test evidence, and the reasoning for not pursuing this further: `Phase_8/docs/08_deployment.md`. Screenshot evidence: `Phase_8/evidence/08_langsmith_full_trace_context.jpg`, `08_langsmith_unredacted_output.jpg`, `08_langsmith_trace_list_comparison.jpg`. Safety test proving the hard-disable holds regardless of the env flag: `tests/test_no_pii_in_langsmith.py`.
+
 ## 4. Remaining deterministic misses — inspected individually, not a blanket "known issue"
 
 Every one of the 9 remaining misses in the final run was read, not just counted:

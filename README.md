@@ -1,6 +1,6 @@
 # BankAssist Advisor
 
-An AI banking support & advisory co-pilot for contact-centre associates (Scenario 2, non-transactional). Built with **LangChain + LangGraph** (Track A). See `capstone_build_plan.md` and `scenario_analysis.md` (in the parent project folder) for the full design rationale, and `docs/09_engineering_justification.md` for the case for every major decision.
+An AI banking support & advisory co-pilot for contact-centre associates (Scenario 2, non-transactional). Built with **LangChain + LangGraph** (Track A). See `capstone_build_plan.md` and `scenario_analysis.md` (in the parent project folder) for the full design rationale, and `Phase_9/docs/09_engineering_justification.md` for the case for every major decision.
 
 **Synthetic data only. No real customers, accounts, or transactions anywhere in this repository.**
 
