@@ -8,6 +8,10 @@ An AI banking support & advisory co-pilot for contact-centre associates (Scenari
 
 **https://arindamsarkar-bankassist-advisor-x7yak6ejhgdnfoy4bpaapy.streamlit.app/** — Streamlit UI only, deployed on Streamlit Community Cloud. The FastAPI layer (`src/api.py`) is not cloud-hosted; run it locally per the instructions below if you need `/chat`/`/feedback`/`/health` directly.
 
+## Source repository
+
+**https://github.com/arindamsarkariitm-dev/arindamsarkar-bankassist-advisor** — private. The real commit-by-commit development history (including the bugs found and fixed along the way, not just the finished state) lives here; request access if you'd like to see it.
+
 ## Quickstart (3 commands)
 
 ```bash
