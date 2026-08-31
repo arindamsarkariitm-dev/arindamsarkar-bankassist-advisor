@@ -12,6 +12,8 @@
 
 **Trace evidence:** `route=proceed` `outcome=answered` `tools_called=['list_recent_transactions']` `doc_ids_cited=[]` `escalation_code=None`
 
+**Live screenshot:** `evidence/demo_turn1.jpg` — same question and answer reproduced on the deployed Streamlit Community Cloud app, not just locally.
+
 ## Turn 2 — Hard refusal
 
 **Expected behaviour:** Refuses; explains the system has no transfer capability and this must go through the bank's authenticated transfer flow. Trace shows policy_gate terminating before any tool call.
@@ -23,6 +25,8 @@
 **Trace evidence:** `route=refuse` `outcome=refused` `tools_called=[]` `doc_ids_cited=[]` `escalation_code=None`
 
 **Confirms policy_gate terminates before the LLM:** `tools_called=[]` -- refusal fires deterministically, not as an LLM choice that happened to go the right way.
+
+**Live screenshot:** `evidence/demo_turn2.jpg` — reproduced on the deployed app; trace shows the identical `refusal_code=money_movement`, `tools_called=null`.
 
 ## Turn 3 — No-hallucination under failure
 
@@ -36,6 +40,8 @@
 
 **Trace evidence:** `intent=account_specific` `route=service_unavailable` `tools_called=None` `tool_error=None` -- no balance figure anywhere in the response, confirmed by inspection.
 
+**No live screenshot for this turn** -- forcing the account service down requires code-level access (`tools._data.ACCOUNTS = None`) that the live deployed app's UI doesn't expose; the Phase 8 capture above is real, forced-failure evidence, just not from the live instance.
+
 ## Turn 4 — High-risk escalation
 
 **Expected behaviour:** Immediate escalation, real ticket id, no troubleshooting attempt, associate directed to the fraud team.
@@ -45,6 +51,8 @@
 **BankAssist Advisor:** I'm escalating this to our Fraud team rather than handling it here -- I've raised ticket TCKT-00101 for it.
 
 **Trace evidence:** `route=escalate` `outcome=escalated` `tools_called=[]` `doc_ids_cited=[]` `escalation_code=suspected_fraud`
+
+**Live screenshot:** `evidence/demo_turn4.jpg` — reproduced on the deployed app, real ticket `TCKT-00060`.
 
 ## Turn 5 — Adaptation (before/after a `too_long` 👎)
 
@@ -65,4 +73,6 @@
 **BankAssist Advisor (after, 113 chars):** The maximum amount you can send via IMPS in a day is ₹5,00,000 per transaction. More detail available on request.
 
 **Length comparison:** 125 chars -> 113 chars (shorter).
+
+**Live screenshots:** `evidence/demo_turn5_before.jpg` and `evidence/demo_turn5_after.jpg` — reproduced on the deployed app with CUST-0003, real 👎 votes given through the UI (not simulated), same before/after wording as the local capture above.
 
