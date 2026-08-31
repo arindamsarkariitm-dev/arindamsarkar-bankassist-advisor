@@ -10,7 +10,7 @@ An AI banking support & advisory co-pilot for contact-centre associates (Scenari
 
 ## Source repository
 
-**https://github.com/arindamsarkariitm-dev/arindamsarkar-bankassist-advisor** — private. The real commit-by-commit development history (including the bugs found and fixed along the way, not just the finished state) lives here; request access if you'd like to see it.
+**https://github.com/arindamsarkariitm-dev/arindamsarkar-bankassist-advisor** — public, view-only for anyone without write access. The real commit-by-commit development history (including the bugs found and fixed along the way, not just the finished state) lives here.
 
 ## Quickstart (3 commands)
 
